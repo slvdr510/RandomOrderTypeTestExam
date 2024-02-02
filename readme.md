@@ -52,6 +52,6 @@ $ python random_order_type_test_exam.py
 
 ## License
 
-MIT
+[MIT](https://github.com/slvdr510/RandomOrderTypeTestExam/blob/main/LICENSE)
 
 ---
