@@ -1,0 +1,242 @@
+[
+    {
+        "question": "El principio de conservación de la carga nos dice que en la Naturaleza\nla carga de un sistema aislado permanece constante. La carga en la Naturaleza...",
+        "option": [
+            "se crea, pero no se destruye.",
+            "se crea y se destruye.",
+            "no se crea, pero sí se destruye.",
+            "ni se crea, ni se destruye."
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "Para una propiedad, un medio es anisótropo, si su valor _______ , y heterogéneo, si su valor ______ .",
+        "option": [
+            "depende de la dirección considerada | depende del punto considerado",
+            "depende de la dirección considerada | no depende del punto considerado",
+            "no depende de la dirección considerada | depende del punto considerado",
+            "no depende de la dirección considerada | no depende del punto considerado"
+        ],
+        "correctOption": 1
+    },
+    {
+        "question": "Si se tienen dos cargas puntuales, una positiva y otra negativa, el campo que crea la primera\ndonde está la segunda y la fuerza que ejerce sobre ella son vectores ____ , y en el caso de la segunda ____ .",
+        "option": [
+            "paralelos | paralelos",
+            "antiparalelos | antiparalelos",
+            "antiparalelos | paralelos",
+            "paralelos | antiparalelos"
+        ],
+        "correctOption": 2
+    },
+    {
+        "question": "El número neto de líneas de campo eléctrico que se dibujan emergiendo o convergiendo sobre\nun sistema de cargas es ____ la carga del sistema. Si la carga es nula, ____ . Y el valor del campo es\nproporcional a la ____ de líneas de campo pintadas.",
+        "option": [
+            "proporcional a | salen las mismas que entran | densidad",
+            "proporcional a | no salen, ni entran | densidad",
+            "igual a | salen las mismas que entran | cantidad",
+            "igual a | no salen, ni entran | cantidad"
+        ],
+        "correctOption": 2
+    },
+    {
+        "question": "Dos cuerpos neutros...",
+        "option": [
+            "se atraen, si las posiciones promedio de carga positiva y negativa de uno no coinciden.",
+            "nunca se atraen, porque las posiciones promedio de su carga positiva y negativa coinciden.",
+            "se repelen, si las posiciones promedio de carga positiva y negativa de uno no coinciden.",
+            "nunca se repelen, porque las posiciones promedio de su carga positiva y negativa coinciden."
+        ],
+        "correctOption": 2
+    },
+    {
+        "question": "El campo gravitatorio creado por la Tierra, si las consideramos formada por superficies esféricas uniformes,\nvaldría fuera de ella, lo mismo que el creado por una masa puntual con toda la masa de la Tierra situada\nen su centro, y en el centro de la Tierra _____ . El campo gravitatorio terrestre es _____ .",
+        "option": [
+            "sería nulo | discontinuo",
+            "sería igual a su valor en la superficie 9,81 m/s^2 | continuo",
+            "sería nulo | continuo",
+            "sería igual a su valor en la superficie 9,81 m/s^2 | discontinuo"
+        ],
+        "correctOption": 3
+    },
+    {
+        "question": "El potencial eléctrico creado por una superficie esférica uniformemente cargada, vale fuera de ella,\nlo mismo que el creado por una carga puntual con toda la carga de la esfera situada en su centro,\ny dentro de ella, _____ . El potencial es _____ .",
+        "option": [
+            "es nulo | discontinuo",
+            "es nulo | continuo",
+            "es constante e igual al valor del potencial en la superficie de la esfera | discontinuo",
+            "es constante e igual al valor del potencial en la superficie de la esfera | continuo"
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "Las superficies equipotenciales son _____ a las líneas de campo y cuanto más juntas están _____ es el campo.",
+        "option": [
+            "paralelas | menor",
+            "paralelas | mayor",
+            "perpendiculares | menor",
+            "perpendiculares | mayor"
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "Si dos conductores se ponen en contacto, se iguala su _____ y se hace nulo el _____ en ellos. La capacidad de\nun condensador plano es igual a la permitividad de su dieléctrico multiplicada por ____ y dividida por ____ .",
+        "option": [
+            "potencial eléctrico | campo eléctrico | el área de una de sus placas | la distancia entre ellas",
+            "carga eléctrica | potencial eléctrico | el área de una de sus placas | la distancia entre ellas",
+            "potencial eléctrico | campo eléctrico | la distancia entre sus placas | el área de una de ellas",
+            "carga eléctrica | potencial eléctrico | la distancia entre sus placas | el área de una de ellas"
+        ],
+        "correctOption": 1
+    },
+    {
+        "question": "Una jaula de Faraday protege de _____ .",
+        "option": [
+            "campos eléctricos y magnéticos de origen interno",
+            "campos eléctricos y ondas electromagnéticas de origen interno",
+            "campos eléctricos y magnéticos de origen externo",
+            "campos eléctricos y ondas electromagnéticas de origen externo"
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "Para una asociación en paralelo de condensadores, la carga almacenada por\nel condensador equivalente es _____ y su capacidad _____ .",
+        "option": [
+            "la de uno de ellos | la suma de sus capacidades",
+            "la suma de las que tienen | la suma de sus capacidades",
+            "la suma de las que tienen | la inversa de la suma de la capacidad inversa de cada uno",
+            "la de uno de ellos | la inversa de la suma de la capacidad inversa de cada uno"
+        ],
+        "correctOption": 2
+    },
+    {
+        "question": "En un dieléctrico, el campo eléctrico total tras aplicar un campo eléctrico es _____ que el aplicado.\nY la constante dieléctrica que lo caracteriza no depende del campo aplicado si el medio es _____ .",
+        "option": [
+            "mayor | homogéneo",
+            "menor | isótropo",
+            "mayor | ideal",
+            "menor | lineal"
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "La resistencia eléctrica de la parte conductora de un cable depende _______ de su longitud,\n ________ de su sección e/y _______ de su conductividad.",
+        "option": [
+            "inversamente | inversamente | directamente",
+            "directamente | directamente | inversamente",
+            "directamente | inversamente | inversamente",
+            "inversamente | directamente | directamente"
+        ],
+        "correctOption": 3
+    },
+    {
+        "question": "Si entre los dos terminales de una porción de circuito el sentido de la caída de potencial\ncoincide con el de la corriente, esa porción _______ energía. _______ .",
+        "option": [
+            "consume | La porción no podría ser una pila ideal",
+            "consume | La porción podría ser una pila ideal",
+            "suministra | La porción podría ser una batería ideal",
+            "suministra | La porción no podría ser una batería ideal"
+        ],
+        "correctOption": 1
+    },
+    {
+        "question": "El amperio-hora es una unidad de ______ y el kilovatio-hora de _______ .",
+        "option": [
+            "corriente | potencia",
+            "carga | potencia",
+            "corriente | energía",
+            "carga | energía"
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "En la experiencia de Oersted, si la corriente circula en sentido Sur-Norte, la brújula gira,\nmirando desde el Norte, ________ . Las líneas de campo magnético _______ son cerradas.",
+        "option": [
+            "Entre 0 y 90 grados a la izquierda | siempre",
+            "Entre 0 y 90 grados a la derecha | siempre",
+            "Entre 0 y 90 grados a la izquierda | no siempre",
+            "Entre 0 y 90 grados a la derecha | no siempre"
+        ],
+        "correctOption": 2
+    },
+    {
+        "question": "Si se tiene un cable por el que circula corriente situado en un campo magnético,\naparece una ddp ______ al cable atendiendo _______ .",
+        "option": [
+            "paralela | al Efecto Hall",
+            "perpendicular | al Efecto Hall",
+            "perpendicular | a la Ley de Laplace",
+            "paralela | a la Ley de Laplace"
+        ],
+        "correctOption": 2
+    },
+    {
+        "question": "Si un dipolo magnético siente un campo magnético uniforme tiende a _______ .",
+        "option": [
+            "Cualquiera de las otras tres.",
+            "deformarse y desplazarse",
+            "desplazarse y rotar",
+            "rotar y deformarse"
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "Si se tiene un circuito de corriente _______ no se puede recargar la batería de un móvil sin conectarla a él.",
+        "option": [
+            "continua (constante)",
+            "alterna (sinusoidal)",
+            "transitoria",
+            "Cualquiera de las otras tres."
+        ],
+        "correctOption": 1
+    },
+    {
+        "question": "Si tenemos una espira en un campo mag´netico uniforme, nunca aparece una\ncorriente inducida en la espira, si la _________ .",
+        "option": [
+            "desplazamos",
+            "giramos",
+            "deformamos",
+            "Aparece en los tres casos."
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "Son fuentes de campo magnético:",
+        "option": [
+            "No todas las cargas eléctricas y todos los campos eléctricos",
+            "No todas las cargas eléctricas y no todos los campos eléctricos",
+            "Todas las cargas eléctricas y no todos los campos eléctricos",
+            "Todas las cargas eléctricas y todos los campos eléctricos"
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "Tras aplicar una tensión constante a un circuito RC, con el condensador inicialmente descargado,\nla evolución temporal de la corriente es ______ , y en un circuito RL, la de la tensión de la bobina,\nsi no existe corriente en el circuito al inicio es _______ .",
+        "option": [
+            "I = I0 * exp(-t/T) | VL = VL0 * exp(-t/T)",
+            "I = I0 * exp(-t/T) | VL = VL0 * (1-exp(-t/T))",
+            "I = If * (1-exp(-t/T)) | VL = VL0 * exp(-t/T)",
+            "I = If * (1-exp(-t/T)) | VL = VL0 * (1-exp(-t/T))"
+        ],
+        "correctOption": 1
+    },
+    {
+        "question": "El principio de Superposición aplicado a un circuito dice que: En cada rama de un circuito lineal, la intensidad\nque circula por ella, o la caída de potencial establecida en ella, es igual a la suma de las intensidades que\ncircularían por la rama, o a la suma de las caídas de potencial que se establecerían en la rama, si se\nconsiderase cada fuente del circuito ________ por separado.",
+        "option": [
+            "real e independiente",
+            "ideal y dependiente",
+            "ideal e independiente",
+            "real y dependiente"
+        ],
+        "correctOption": 3
+    },
+    {
+        "question": "La ecuación de neutralidad de un cristal semiconductor ______ es ______ .",
+        "option": [
+            "extrínseco compensado | n + Na = p + Nd",
+            "intrínseco | n + Na = p + Nd",
+            "extrínseco tipo n | n + Nd = p",
+            "extrínseco tipo p | n = p + Na"
+        ],
+        "correctOption": 2
+    }
+]
