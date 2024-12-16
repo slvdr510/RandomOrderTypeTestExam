@@ -11,31 +11,30 @@ A simple Python script that:
   - A list of incorrectly answered questions with their correct answer.  
 
 ---
-# How To Use
 
-Clone this repository
+# Usage
+
+1. Clone the repository:
 ```bash
 git clone https://github.com/slvdr510/randomOrderTypeTestExam
 ```
 
-
-Go into the repository
+2. Navigate to the folder:
 ```bash
 cd randomOrderTypeTestExam
 ```
 
-
-Run the script in terminal or VSCode's terminal (for emoji support)
+3. Run the script:
 ```bash
 python random_order_type_test_exam.py
 ```
-
+*(Use VSCode's terminal for emoji support)*
 
 ---
 
-# JSON Structure
+# Reusability
 
-You can create your own .json following the next structure to run your own exams.
+Create a JSON file with the following structure to run your own tests/quizzes.
 
 ```json
     [
@@ -44,7 +43,7 @@ You can create your own .json following the next structure to run your own exams
             "option": [
                 "Pariatur velit elit qui labore officia labore qui voluptate sint.",
                 "Incididunt velit excepteur pariatur id excepteur.",
-                "Proident eiusmod amet eiusmod incididunt reprehenderit sint anim laborum ut laboris sit laboris.",
+                "Proident eiusmod amet eiusmod incididunt reprehenderit sint anim laborum.",
                 "Pariatur id velit mollit est dolore sint aute irure voluptate Lorem esse."
             ],
             "correctOption": 1
