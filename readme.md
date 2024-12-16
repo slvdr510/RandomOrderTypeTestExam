@@ -1,11 +1,13 @@
 <h1 align="center">Random-Order Type-Test Exam</h1>
 
-# What's this?
- - Python script made for loop over data from a json file.
- - It let you choose one correct answer for each question.
- - Modify the time.sleep() after each correct or failed answer as you want.
- - At the end shows up a resume with your total right and wrong answers.
- - Also a right answers ✔️ and wrong answers ❌| 
+# What is this?  
+A simple Python script that:  
+- Loops through data from a JSON file.  
+- Lets you select an answer for each question.  
+- Allows you to adjust `time.sleep()` after right and wrong answers.  
+- Displays a summary at the end:  
+  - Total correct and incorrect answers.  
+  - A list of incorrectly answered questions with their correct answer.  
 
 ---
 # How To Use
