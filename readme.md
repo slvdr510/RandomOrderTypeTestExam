@@ -4,25 +4,30 @@
  - Python script made for loop over data from a json file.
  - It let you choose one correct answer for each question.
  - Modify the time.sleep() after each correct or failed answer as you want.
- - At the end shows up a resume with all the fails and a counter of Failed❌| swersnd Correct answers: ✔️
+ - At the end shows up a resume with your total right and wrong answers.
+ - Also a right answers ✔️ and wrong answers ❌| 
 
 ---
-## How To Use
+# How To Use
 
+Clone this repository
 ```bash
-# Clone this repository
-$ git clone https://github.com/slvdr510/randomOrderTypeTestExam
+git clone https://github.com/slvdr510/randomOrderTypeTestExam
+```
 
-# Go into the repository
-$ cd slvdr510-randomOrderTypeTestExam
+Go into the repository
+```bash
+cd randomOrderTypeTestExam
+```
 
-# Run the script in CMD or VSCode
-$ python random_order_type_test_exam.py
+Run the script in CMD or VSCode
+```bash
+code .
 ```
 
 ---
 
-## JSON Format
+# JSON Structure
 ```json
     [
         {
