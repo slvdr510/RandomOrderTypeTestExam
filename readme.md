@@ -2,7 +2,8 @@
 
 # What is this?  
 A simple Python script that:  
-- Loops through data from a JSON file.  
+- Loops through data from a JSON file.
+- Never repeats the order of questions and answers options.
 - Lets you select an answer for each question.  
 - Allows you to adjust `time.sleep()` after right and wrong answers.  
 - Displays a summary at the end:  
@@ -17,19 +18,25 @@ Clone this repository
 git clone https://github.com/slvdr510/randomOrderTypeTestExam
 ```
 
+
 Go into the repository
 ```bash
 cd randomOrderTypeTestExam
 ```
 
-Run the script in CMD or VSCode
+
+Run the script in terminal or VSCode's terminal (for emoji support)
 ```bash
-code .
+python random_order_type_test_exam.py
 ```
+
 
 ---
 
 # JSON Structure
+
+You can create your own .json following the next structure to run your own exams.
+
 ```json
     [
         {
