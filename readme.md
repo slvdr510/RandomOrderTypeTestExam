@@ -33,7 +33,6 @@ python random_order_type_test_exam.py
 # Reusability
 
 Create a JSON file with the following structure to run your own tests/quizzes.
-NOTE: The ´correctOption´ index begins at 1.
 
 ```json
     [
@@ -58,6 +57,8 @@ NOTE: The ´correctOption´ index begins at 1.
         }
     ]
 ```
+
+*NOTE: The ´correctOption´ index begins at 1.*
 
 ---
 
