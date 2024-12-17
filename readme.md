@@ -33,15 +33,14 @@ python random_order_type_test_exam.py
 # Reusability
 
 Create a JSON file with the following structure to run your own tests/quizzes.
+NOTE: The ´correctOption´ index begins at 1.
 
 ```json
     [
         {
-            "question": "Commodo sunt excepteur irure sint veniam",
+            "question": "Commodo sunt excepteur irure sint veniam?",
             "option": [
-                "Pariatur velit elit qui labore officia labore qui voluptate sint.",
-                "Incididunt velit excepteur pariatur id excepteur.",
-                "Proident eiusmod amet eiusmod incididunt reprehenderit sint anim laborum.",
+                "Pariatur eiusmod amet eiusmod incididunt reprehenderit sint anim laborum.",
                 "Pariatur id velit mollit est dolore sint aute irure voluptate Lorem esse."
             ],
             "correctOption": 1
@@ -49,12 +48,13 @@ Create a JSON file with the following structure to run your own tests/quizzes.
         {
             "question": "Question",
             "option": [
-                "Answer number 1",
-                "Answer number 2",
-                "Answer number 3",
-                "Answer number 4"
+                "Option 1",
+                "Option 2",
+                "Option 3",
+                "Option 4",
+                "Option 5"
             ],
-            "correctOption": 1
+            "correctOption": 5
         }
     ]
 ```
