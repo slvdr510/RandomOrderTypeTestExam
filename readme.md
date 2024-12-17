@@ -9,6 +9,7 @@ A simple Python script that:
   - A list of incorrectly answered questions with their correct answer.  
 
 ---
+---
 
 # Usage
 
