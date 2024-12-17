@@ -1,6 +1,4 @@
-<h1 align="center">Random-Order Type-Test Exam</h1>
-
-# What is this?  
+# Overview
 A simple Python script that:  
 - Loops through data from a JSON file.
 - Never repeats the order of questions and answers options.
@@ -66,5 +64,3 @@ Create a JSON file with the following structure to run your own tests/quizzes.
 ## License
 
 [MIT](https://github.com/slvdr510/RandomOrderTypeTestExam/blob/main/LICENSE)
-
----
