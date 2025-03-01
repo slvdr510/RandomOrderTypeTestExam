@@ -11,14 +11,16 @@ def main():
     
     # >>> Modify the next values to use the script as you'd like <<<<
     
-    random_order = True                 # True or False
-    seconds_after_correct = 0.25        # Seconds to wait after a correct answer
-    seconds_after_error = 0             # Seconds to wait after an incorrect answer
-    json_file_name = 'teoria_fisica'    # Change this value to the name of your .json file. Default: 'teoria_fisica'
+    random_order = True             # True or False
+    seconds_after_correct = 0.1     # Seconds to wait after a correct answer
+    seconds_after_error = 0         # Seconds to wait after an incorrect answer
+    
+    # Change this value to the name of your .json file
+    # json_file_name = 'fisica_tipo_test_examen'
+    json_file_name = 'deso_algoritmos_procesos_y_entrada-salida'
     
     # To use this program for your own purposes, you must create a .json file with the following format:
     # [{"question:"Matrix","option":["option one","option two"],"correctOption": "1"}]
-    
     
     abs_json_file_route = os.path.join(current_script_directory,json_file_name+'.json')
     
@@ -28,7 +30,10 @@ def main():
     except Exception as e:
         print(f"\nError: {e}\n")
     
-    beginExam(jsonPalabras)
+    try:
+        beginExam(jsonPalabras)
+    except Exception as e:
+        print(f"\nError: {e}\n")
 
 def cls():
     system = platform.system()
@@ -55,14 +60,15 @@ def beginExam(json_data):
             for option in range(len(data.get('option'))):
                 print(f"{option+1}. {data.get('option')[option]}")
             print("")
+            
             eleccion = input("Your answer is... ")
             
-            if eleccion == data.get('correctOption'):
-                print('\nCorrect! 🎉')
+            if int(eleccion.strip()) == data.get('correctOption'):
+                print('\n  Correct! 🎉\r', end="")
                 correct_answer_count+=1
                 time.sleep(seconds_after_correct)
             else:
-                print(f"\nError! ☹️\n\n{data.get('correctOption')}. {data.get('option')[int(data.get('correctOption'))-1]}\n")
+                print(f"\nError! ☹️\n\n{data.get('correctOption')}. {data.get('option')[int(data.get('correctOption'))-1]}", end="")
                 failed_answer_count+=1
                 failed_questions.append(f"{str(questionNumber+1)}. {data.get('question')}\n{(data.get('correctOption'))}. {data.get('option')[int(data.get('correctOption'))-1]}\n\n")
                 time.sleep(seconds_after_error)
@@ -71,10 +77,12 @@ def beginExam(json_data):
 
         print(f"Right answers: {correct_answer_count} ✔️  | Wrong answers: {failed_answer_count} ❌\n\n")
 
-        for fallo in failed_questions:
-            print(f"{str(fallo)}")
+        if len(failed_questions) != 0:
             
-        print(f"Right answers: {correct_answer_count} ✔️  | Wrong answers: {failed_answer_count} ❌\n\n")
+            for fallo in failed_questions:
+                print(f"{str(fallo)}")
+            
+            print(f"Right answers: {correct_answer_count} ✔️  | Wrong answers: {failed_answer_count} ❌\n\n")
 
     except Exception as e:
         print(f"\nError: {e}\n")

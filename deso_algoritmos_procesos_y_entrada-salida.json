@@ -1,0 +1,177 @@
+[
+    {
+        "question": "Algoritmo FIFO de Procesos",
+        "option": [
+            "Primero que entra, primero que sale.",
+            "Concede a un proceso durante un quantum 'q' de tiempo.",
+            "Escoge de la cola de procesos preparados el de menor tiempo de ejecución. (No Apropiativo)",
+            "Cambia el proceso que está en ejecución cuando un proceso entra en la cola de preparados con una exigencia de tiempo de ejecucucón menor que le queda al proceso que está en curso. (Si Apropiativo)",
+            "Trata de corregir la desventana de los procesos largos en el SJF."	
+        ],
+        "correctOption": 1
+    },
+    {
+        "question": "Algoritmo Round Robin de Procesos",
+        "option": [
+            "Primero que entra, primero que sale.",
+            "Concede a un proceso durante un quantum 'q' de tiempo.",
+            "Escoge de la cola de procesos preparados el de menor tiempo de ejecución. (No Apropiativo)",
+            "Cambia el proceso que está en ejecución cuando un proceso entra en la cola de preparados con una exigencia de tiempo de ejecucucón menor que le queda al proceso que está en curso. (Si Apropiativo)",
+            "Trata de corregir la desventana de los procesos largos en el SJF."
+        ],
+        "correctOption": 2
+    },
+    {
+        "question": "Algoritmo SJF de Procesos",
+        "option": [
+            "Primero que entra, primero que sale.",
+            "Concede a un proceso durante un quantum 'q' de tiempo.",
+            "Escoge de la cola de procesos preparados el de menor tiempo de ejecución. (No Apropiativo)",
+            "Cambia el proceso que está en ejecución cuando un proceso entra en la cola de preparados con una exigencia de tiempo de ejecucucón menor que le queda al proceso que está en curso. (Si Apropiativo)",
+            "Trata de corregir la desventana de los procesos largos en el SJF."
+        ],
+        "correctOption": 3
+    },
+    {
+        "question": "Algoritmo SRT de Procesos",
+        "option": [
+            "Primero que entra, primero que sale.",
+            "Concede a un proceso durante un quantum 'q' de tiempo.",
+            "Escoge de la cola de procesos preparados el de menor tiempo de ejecución. (No Apropiativo)",
+            "Cambia el proceso que está en ejecución cuando un proceso entra en la cola de preparados con una exigencia de tiempo de ejecucucón menor que le queda al proceso que está en curso. (Si Apropiativo)",
+            "Trata de corregir la desventana de los procesos largos en el SJF."
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "Algoritmo HRT de Procesos",
+        "option": [
+            "Primero que entra, primero que sale.",
+            "Concede a un proceso durante un quantum 'q' de tiempo.",
+            "Escoge de la cola de procesos preparados el de menor tiempo de ejecución. (No Apropiativo)",
+            "Cambia el proceso que está en ejecución cuando un proceso entra en la cola de preparados con una exigencia de tiempo de ejecucucón menor que le queda al proceso que está en curso. (Si Apropiativo)",
+            "Trata de corregir la desventana de los procesos largos en el SJF."
+        ],
+        "correctOption": 5
+    },
+    {
+        "question": "Algoritmo FCFS de Entrada-Salida",
+        "option": [
+            "Atiende las peticiones en el orden en que llegan, sin importar la distancia entre ellas.",
+            "Atiende primero la petición más cercana a la posición actual del cabezal, reduciendo el tiempo de búsqueda.",
+            "El cabezal se mueve en una dirección atendiendo las peticiones en su camino, hasta llegar al final del disco, donde cambia de sentido.",
+            "Similar al SCAN, pero el cabezal cambia de dirección al alcanzar la última ptición en lugar de ir hasta el final del disco.",
+            "Divide las peticiones en grupos de tamaño N y las atiende por orden dentro de cada grupo antes de pasar al siguiente.",
+            "Toma las peticiones actuales en un grupo y las atiende como si fuera un SCAN normal. Las nuevas peticiones se agrupan para atender después siendo el tamaño del siguiente grupo, igual a las peticiones que estén en la cola esperando.",
+            "El cabezal solo atiende en una dirección. Al llegar al extremo del disco, regresa rápidamente al otro extremo sin atender peticiones en el camino de vuelta.",
+            "El cabezal regresa directamente a la primera petición en la dirección opuesta, sin ir al final del disco. "
+
+        ],
+        "correctOption": 1
+    },
+    {
+        "question": "Algoritmo SSTF de Entrada-Salida",
+        "option": [
+            "Atiende las peticiones en el orden en que llegan, sin importar la distancia entre ellas.",
+            "Atiende primero la petición más cercana a la posición actual del cabezal, reduciendo el tiempo de búsqueda.",
+            "El cabezal se mueve en una dirección atendiendo las peticiones en su camino, hasta llegar al final del disco, donde cambia de sentido.",
+            "Similar al SCAN, pero el cabezal cambia de dirección al alcanzar la última ptición en lugar de ir hasta el final del disco.",
+            "Divide las peticiones en grupos de tamaño N y las atiende por orden dentro de cada grupo antes de pasar al siguiente.",
+            "Toma las peticiones actuales en un grupo y las atiende como si fuera un SCAN normal. Las nuevas peticiones se agrupan para atender después siendo el tamaño del siguiente grupo, igual a las peticiones que estén en la cola esperando.",
+            "El cabezal solo atiende en una dirección. Al llegar al extremo del disco, regresa rápidamente al otro extremo sin atender peticiones en el camino de vuelta.",
+            "El cabezal regresa directamente a la primera petición en la dirección opuesta, sin ir al final del disco. "
+
+        ],
+        "correctOption": 2
+    },
+    {
+        "question": "Algoritmo SCAN de Entrada-Salida",
+        "option": [
+            "Atiende las peticiones en el orden en que llegan, sin importar la distancia entre ellas.",
+            "Atiende primero la petición más cercana a la posición actual del cabezal, reduciendo el tiempo de búsqueda.",
+            "El cabezal se mueve en una dirección atendiendo las peticiones en su camino, hasta llegar al final del disco, donde cambia de sentido.",
+            "Similar al SCAN, pero el cabezal cambia de dirección al alcanzar la última ptición en lugar de ir hasta el final del disco.",
+            "Divide las peticiones en grupos de tamaño N y las atiende por orden dentro de cada grupo antes de pasar al siguiente.",
+            "Toma las peticiones actuales en un grupo y las atiende como si fuera un SCAN normal. Las nuevas peticiones se agrupan para atender después siendo el tamaño del siguiente grupo, igual a las peticiones que estén en la cola esperando.",
+            "El cabezal solo atiende en una dirección. Al llegar al extremo del disco, regresa rápidamente al otro extremo sin atender peticiones en el camino de vuelta.",
+            "El cabezal regresa directamente a la primera petición en la dirección opuesta, sin ir al final del disco. "
+
+        ],
+        "correctOption": 3
+    },
+    {
+        "question": "Algoritmo LOOK de Entrada-Salida",
+        "option": [
+            "Atiende las peticiones en el orden en que llegan, sin importar la distancia entre ellas.",
+            "Atiende primero la petición más cercana a la posición actual del cabezal, reduciendo el tiempo de búsqueda.",
+            "El cabezal se mueve en una dirección atendiendo las peticiones en su camino, hasta llegar al final del disco, donde cambia de sentido.",
+            "Similar al SCAN, pero el cabezal cambia de dirección al alcanzar la última ptición en lugar de ir hasta el final del disco.",
+            "Divide las peticiones en grupos de tamaño N y las atiende por orden dentro de cada grupo antes de pasar al siguiente.",
+            "Toma las peticiones actuales en un grupo y las atiende como si fuera un SCAN normal. Las nuevas peticiones se agrupan para atender después siendo el tamaño del siguiente grupo, igual a las peticiones que estén en la cola esperando.",
+            "El cabezal solo atiende en una dirección. Al llegar al extremo del disco, regresa rápidamente al otro extremo sin atender peticiones en el camino de vuelta.",
+            "El cabezal regresa directamente a la primera petición en la dirección opuesta, sin ir al final del disco. "
+
+        ],
+        "correctOption": 4
+    },
+    {
+        "question": "Algoritmo SCAN N de Entrada-Salida",
+        "option": [
+            "Atiende las peticiones en el orden en que llegan, sin importar la distancia entre ellas.",
+            "Atiende primero la petición más cercana a la posición actual del cabezal, reduciendo el tiempo de búsqueda.",
+            "El cabezal se mueve en una dirección atendiendo las peticiones en su camino, hasta llegar al final del disco, donde cambia de sentido.",
+            "Similar al SCAN, pero el cabezal cambia de dirección al alcanzar la última ptición en lugar de ir hasta el final del disco.",
+            "Divide las peticiones en grupos de tamaño N y las atiende por orden dentro de cada grupo antes de pasar al siguiente.",
+            "Toma las peticiones actuales en un grupo y las atiende como si fuera un SCAN normal. Las nuevas peticiones se agrupan para atender después siendo el tamaño del siguiente grupo, igual a las peticiones que estén en la cola esperando.",
+            "El cabezal solo atiende en una dirección. Al llegar al extremo del disco, regresa rápidamente al otro extremo sin atender peticiones en el camino de vuelta.",
+            "El cabezal regresa directamente a la primera petición en la dirección opuesta, sin ir al final del disco. "
+
+        ],
+        "correctOption": 5
+    },
+    {
+        "question": "Algoritmo F-SCAN de Entrada-Salida",
+        "option": [
+            "Atiende las peticiones en el orden en que llegan, sin importar la distancia entre ellas.",
+            "Atiende primero la petición más cercana a la posición actual del cabezal, reduciendo el tiempo de búsqueda.",
+            "El cabezal se mueve en una dirección atendiendo las peticiones en su camino, hasta llegar al final del disco, donde cambia de sentido.",
+            "Similar al SCAN, pero el cabezal cambia de dirección al alcanzar la última ptición en lugar de ir hasta el final del disco.",
+            "Divide las peticiones en grupos de tamaño N y las atiende por orden dentro de cada grupo antes de pasar al siguiente.",
+            "Toma las peticiones actuales en un grupo y las atiende como si fuera un SCAN normal. Las nuevas peticiones se agrupan para atender después siendo el tamaño del siguiente grupo, igual a las peticiones que estén en la cola esperando.",
+            "El cabezal solo atiende en una dirección. Al llegar al extremo del disco, regresa rápidamente al otro extremo sin atender peticiones en el camino de vuelta.",
+            "El cabezal regresa directamente a la primera petición en la dirección opuesta, sin ir al final del disco. "
+
+        ],
+        "correctOption": 6
+    },
+    {
+        "question": "Algoritmo C-SCAN de Entrada-Salida",
+        "option": [
+            "Atiende las peticiones en el orden en que llegan, sin importar la distancia entre ellas.",
+            "Atiende primero la petición más cercana a la posición actual del cabezal, reduciendo el tiempo de búsqueda.",
+            "El cabezal se mueve en una dirección atendiendo las peticiones en su camino, hasta llegar al final del disco, donde cambia de sentido.",
+            "Similar al SCAN, pero el cabezal cambia de dirección al alcanzar la última ptición en lugar de ir hasta el final del disco.",
+            "Divide las peticiones en grupos de tamaño N y las atiende por orden dentro de cada grupo antes de pasar al siguiente.",
+            "Toma las peticiones actuales en un grupo y las atiende como si fuera un SCAN normal. Las nuevas peticiones se agrupan para atender después siendo el tamaño del siguiente grupo, igual a las peticiones que estén en la cola esperando.",
+            "El cabezal solo atiende en una dirección. Al llegar al extremo del disco, regresa rápidamente al otro extremo sin atender peticiones en el camino de vuelta.",
+            "El cabezal regresa directamente a la primera petición en la dirección opuesta, sin ir al final del disco. "
+
+        ],
+        "correctOption": 7
+    },
+    {
+        "question": "Algoritmo C-LOOK de Entrada-Salida",
+        "option": [
+            "Atiende las peticiones en el orden en que llegan, sin importar la distancia entre ellas.",
+            "Atiende primero la petición más cercana a la posición actual del cabezal, reduciendo el tiempo de búsqueda.",
+            "El cabezal se mueve en una dirección atendiendo las peticiones en su camino, hasta llegar al final del disco, donde cambia de sentido.",
+            "Similar al SCAN, pero el cabezal cambia de dirección al alcanzar la última ptición en lugar de ir hasta el final del disco.",
+            "Divide las peticiones en grupos de tamaño N y las atiende por orden dentro de cada grupo antes de pasar al siguiente.",
+            "Toma las peticiones actuales en un grupo y las atiende como si fuera un SCAN normal. Las nuevas peticiones se agrupan para atender después siendo el tamaño del siguiente grupo, igual a las peticiones que estén en la cola esperando.",
+            "El cabezal solo atiende en una dirección. Al llegar al extremo del disco, regresa rápidamente al otro extremo sin atender peticiones en el camino de vuelta.",
+            "El cabezal regresa directamente a la primera petición en la dirección opuesta, sin ir al final del disco. "
+
+        ],
+        "correctOption": 8
+    }
+]
