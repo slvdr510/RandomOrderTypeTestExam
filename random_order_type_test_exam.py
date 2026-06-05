@@ -3,17 +3,27 @@ import json, random, os, subprocess, platform, time
 current_script_path = os.path.abspath(__file__)
 current_script_directory = os.path.dirname(current_script_path)
 
+
 def main():
     global random_order
     global seconds_after_correct
     global seconds_after_error
     global abs_json_file_route
+    global press_enter_to_continue_after_error
     
     # >>> Modify the next values to use the script as you'd like <<<<
     
     random_order = True             # True or False
     seconds_after_correct = 1     # Seconds to wait after a correct answer
+    
+    press_enter_to_continue_after_error = True
     seconds_after_error = 1         # Seconds to wait after an incorrect answer
+
+    # if (press_enter_to_continue_after_error):
+    #     input("Press enter to continue")
+    # else:
+    #     time.sleep(seconds_after_error)
+
     
     # Change this value to the name of your .json file
     # json_file_name = 'fisica_tipo_test_examen'
@@ -63,17 +73,27 @@ def beginExam(json_data):
                 print(f"{option+1}. {data.get('option')[option]}")
             print("")
             
-            eleccion = input("Your answer is... ")
+            while True:
+                eleccion = input("Your answer is... ")
+                try:
+                    eleccion_val = int(eleccion.strip())
+                    break
+                except ValueError:
+                    print("\n⚠️  Invalid input! Please enter a valid number.\n")
             
-            if int(eleccion.strip()) == data.get('correctOption'):
-                print('\n  Correct! 🎉\r', end="")
+            if eleccion_val == data.get('correctOption'):
+                print('\n  Correct 🎉\r', end="")
                 correct_answer_count+=1
                 time.sleep(seconds_after_correct)
             else:
-                print(f"\nError! ☹️\n\n{data.get('correctOption')}. {data.get('option')[int(data.get('correctOption'))-1]}", end="")
+                print(f"\nError ☹️\n\n{data.get('correctOption')}. {data.get('option')[int(data.get('correctOption'))-1]}", end="")
                 failed_answer_count+=1
                 failed_questions.append(f"{str(questionNumber+1)}. {data.get('question')}\n{(data.get('correctOption'))}. {data.get('option')[int(data.get('correctOption'))-1]}\n\n")
-                time.sleep(seconds_after_error)
+                
+                if (press_enter_to_continue_after_error):
+                    input("\n\n\nPress enter to continue")
+                else:
+                    time.sleep(seconds_after_error)
 
             cls()
 
