@@ -12,12 +12,14 @@ def main():
     # >>> Modify the next values to use the script as you'd like <<<<
     
     random_order = True             # True or False
-    seconds_after_correct = 0.1     # Seconds to wait after a correct answer
-    seconds_after_error = 0         # Seconds to wait after an incorrect answer
+    seconds_after_correct = 1     # Seconds to wait after a correct answer
+    seconds_after_error = 1         # Seconds to wait after an incorrect answer
     
     # Change this value to the name of your .json file
     # json_file_name = 'fisica_tipo_test_examen'
-    json_file_name = 'deso_algoritmos_procesos_y_entrada-salida'
+    # json_file_name = 'deso_algoritmos_procesos_y_entrada-salida'
+    json_file_name = 'ac_tipo_test_examenes'
+    
     
     # To use this program for your own purposes, you must create a .json file with the following format:
     # [{"question:"Matrix","option":["option one","option two"],"correctOption": "1"}]

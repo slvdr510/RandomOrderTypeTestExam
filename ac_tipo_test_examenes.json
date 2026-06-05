@@ -1,0 +1,2942 @@
+[
+  {
+    "question": "Según la clasificación de Flynn, dónde encajaría un array sistólico y un array de frente de onda:",
+    "option": [
+      "En MISD ambos",
+      "En SIMD ambos",
+      "En MIMD ambos",
+      "En MIMD el sistólico y en MISD el de frente de onda"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Considerando una arquitectura escalar multihebra (o miltihilo) con entrelazado:",
+    "option": [
+      "Conmmuta a otra hebra cuando finaliza con la anterior",
+      "La arquitectura escalar no puede ser multihebra",
+      "Conmmuta a otra hebra después de cada detención",
+      "Conmmuta a otra hebra después de cada ciclo"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En el diseño de una arquitectura de computador, indique la afirmación que es cierta:",
+    "option": [
+      "La arquitectura Von Neumann presenta más ventajas que el resto de arquitecturas estudiadas",
+      "La frecuencia de procesamiento no condiciona el tiempo de ejecución",
+      "El repertorio de instrucciones es más complejo y eficaz cuantas más instrucciones tiene",
+      "En la arquitectura DLX, las etapas para la ejecución de una instrucción pueden necesitar más de un ciclo"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Comparando dos sistemas, uno con memoria caché partida y otro con memoria caché unificada:",
+    "option": [
+      "El de caché unificada necesita un controlador de caché más sencillo que el de la partida",
+      "EL de caché partida no necesita controlador de caché",
+      "El de caché partida es siempre más lento",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "En relación a la M. Principal y M. Caché, indique la afirmación que es cierta:",
+    "option": [
+      "La M. Caché contiene una copia total la MP",
+      "MP y M.Caché comparten el mismo tamaño de bloque",
+      "La MP tiene menor tamaño que la M. Caché",
+      "La transferencia de información se hace a nivel de palabra"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En relación a las técnicas de mejora de rendimiento de la memoria principal:",
+    "option": [
+      "La memoria entrelazada mejora el tiempo de acceso a una única posición pero no el acceso a un bloque",
+      "El entrelazado no mejora el sistema de memoria",
+      "La memoria principal más ancha reduce el tiempo de penalización por fallo en la M. Caché",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Se aun sistema computador A que dedica 10 segundos a un proceso, si se dice que es el 30% más rápido que el computador B:",
+    "option": [
+      "El computador B dedica 30 segundos al mismo proceso",
+      "El computador B dedica 13 segundos al mismo proceso",
+      "El computador A dedica 3 segundos más que el B",
+      "El computador A dedica 0,3 segundos menos que B"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En un sistema computador con frecuencia de procesamiento de 1 GHz, dedica 30 ns a ejecutar 6 instrucciones:",
+    "option": [
+      "Equivale a 5 CPI",
+      "Equivale a 180 CPI",
+      "Equivale a 1 ns por instrucción",
+      "Equivale a 0.5 ns por instrucción"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "En relación a los MIPS, ¿qué afirmación es correcta?:",
+    "option": [
+      "Son independientes del repertorio de instrucciones",
+      "Máquinas más rápidas significan menos MIPS",
+      "Pueden variar entre programas en el mismo computador",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea un sistema computador con rendimiento valorado en 1 MIPS, ¿cuánto tiempo dedicará a la ejecución de un programa formado por 1000 instrucciones?:",
+    "option": [
+      "100 ms",
+      "1 ms",
+      "10 με",
+      "20 με"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "De las funciones de correspondencia de la M. Caché:",
+    "option": [
+      "La totalmente asociativa necesita una circuitería más compleja que la asociativa por conjuntos",
+      "La directa requiere definir algoritmo de reemplazo",
+      "La asociativa por conjuntos necesita una circuiteria menos compleja que la directa",
+      "Las tres comparten el msmo formato de dirección"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Para localizar el bloque donde se encuentra la palabra solicitada por la CPU, la función de correspondencia asociativa por conjuntos, necesita:",
+    "option": [
+      "Tantos elementos comparadores como bloques formen el conjunto",
+      "Tantos elementos comparadores como conjuntos tiene",
+      "Tantos elementos comparadores como bloques tiene en total",
+      "Un solo elemento comparador"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una memoria caché de dos niveles L1 y L2, si de 200 referencias a memorias solicitadas por la CPU, el nivel L1 contiene 100 aciertos y L2 40 aciertos:",
+    "option": [
+      "La tasa local de fallos de L2 es del 60%",
+      "La tasa local de fallos de L1 es del 100%",
+      "La tasa global de fallos de L2 es del 60%",
+      "La tasa global de aciertos de L2 es del 90%"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea la secuencia de instrucciones LOAD A, ADD B, STORE C, con A, B, C posiciones de memoria:",
+    "option": [
+      "En un computador basado en acumulador, suma dos valores de la memoria y almacena el resultado",
+      "En una máquina basada en banco de registros, suma dos valores y almacena el resultado",
+      "En un computador de tres direcciones, suma dos valores de memoria y almacena el resultado",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea el esquema de computador basado en la arquitectura Von Neumann estudiada, para realizar una operación de escritura en memoria:",
+    "option": [
+      "Se necesita definir el valor del registro PC",
+      "Se necesita definir el valor del registro de Datos (RM) siempre",
+      "Se necesita algunas veces definir el valor del registro de direcciones D",
+      "Se necesita definir el valor del registro SP"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea un computador con unidad de control microprogramada con secuenciamiento explicito, repertorio de 512 instrucciones y Memoria de Control de 2kpos:",
+    "option": [
+      "No necesita etapa traductora",
+      "La etapa traductora ROM es de 9 pos x 11 bits",
+      "La etapa traductora ROM es de 512 kpos x 11 bits",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un computador con unidad de control microprogramada con secuenciamiento implícito, y Memoria de Control de 2 kpos:",
+    "option": [
+      "El firmware lo conforman 2^11 microinstrucciones",
+      "El repertorio está formado por 2k instrucciones",
+      "El firmware lo conforman 11 microinstrucciones",
+      "Faltan datos para conocer el nº de microinstrucciones"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema con arquitectura Von Neumann, indica la/s instrucciones que implican acceso de lectura en pila:",
+    "option": [
+      "La instrucción RETI",
+      "CALL Y BZ",
+      "ADD.2, .4 con trap por desbordamiento",
+      "RET CALL"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Comparando las arquitecturas de un procesador segmentado y uno superescalar:",
+    "option": [
+      "Ambas son arquitecturas segmentadas",
+      "El procesador segmentado alcanza un nivel de paralelismo superior",
+      "Ambas son arquitecturas serie",
+      "El procesador superescalar es siempre menos eficiente que el segmentado"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea la instrucción LF FO, 10(R1) ejecutada en una arquitectura DLX:",
+    "option": [
+      "La fase de ejecución para por la unidad funcional de enteros",
+      "No puede ejecutarse porque R1 debe ser de tipo float",
+      "La fase de ejecución requiere de una unidad funcional de tipo flotante",
+      "No puede ejecutarse porque FO = 0"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea la arquitectura DLX estudiada con unidades funcionales de tipo float multiciclo:",
+    "option": [
+      "Puede presentar riesgos de tipo WAW",
+      "Únicamente puede presentar riesgos de tipo RAW",
+      "No puede ejecutar una fase WB una instrucción, antes que otra anterior en la secuencia",
+      "Puede presentar riesgos de tipo RAR"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea el conjunto de instrucciones: MULTF F2, F0, F1; DIVF F3, FO, F1. ejecutadas sobre una arquitectura DLX con una unidad funcional de Multiplicación/División flotante de 5 ciclos segmentada:",
+    "option": [
+      "Ninguna de las afirmaciones siguientes puede ser correcta",
+      "Las fases de ejecución durarán 10 ciclos en total",
+      "Presenta un riesgo de tip RAW",
+      "Las fases de ejecución dirarán 6 ciclos en total"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea la secuencia de instrucciones LW R1, 10(R2) ST 20(R3), R1:",
+    "option": [
+      "Se beneficia si existe adelantamiento MEM - MEM",
+      "Se beneficia si existe adelantamiento ALU-ALU",
+      "Se beneficia si existe adelantamiento ALU-MEM",
+      "Se beneficia si existe adelantamiento MEM-ALU"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Para implementar la operación vectorial FO V1, siendo FO un registro tipo float y V1 un vector de 64 elementos:",
+    "option": [
+      "No se puede multiplicar registros float por un registro vectorial",
+      "Se emplearía la instrucción vectorial MULTV de la arquitectura DLXV",
+      "Se emplearía la instrucción vectorial MULTV de la arquitectura DLX escalar",
+      "Se debe emplear la instrucción MULTV y repetirla en un bucle un total de 64 veces en la arquitectura DLXV"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea X un vector de 130 elementos sobre el que se realiza una operación vectorial en una arquitectura DLXV con longitud máxima de vector MVL = 64:",
+    "option": [
+      "El vector se divide en 3 secciones de 64 elementos y una última de 2",
+      "El vector se opera en su totalidad sin seccionamiento",
+      "El vector se divide en 2 secciones",
+      "El vector se divide en 3 secciones"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea un bucle con sentencia S: B(i)=B(i-1)*K; B(0)=2, i=1...64;",
+    "option": [
+      "La sentencia es vectorizable porque se multiplica por una constante K",
+      "La sentencia S no es vectorizable",
+      "La sentencia es vectorizable porque B(0) = 2",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea la arquitectura DLXV con 16 bancos de memoria, si la CPU solicita la dirección 136 y siguientes:",
+    "option": [
+      "Ésta se ubicará en el Banco 1",
+      "Ésta se ubicará en el Banco 15",
+      "Ésta se ubicará en el Banco 0",
+      "Ésta se ubicará el Banco 14"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "¿Qué secuencia de instrucciones sería correcta en un computador basado en banco de registros, con modelos de ejecución REG-REG REG-MEM, para realizar la suma de dos posiciones de memoria, A y B, dejando el resultado en la dirección de memoria A?",
+    "option": [
+      "LD R1, A; ADD R1, B; ST A, R1",
+      "ADD A, B",
+      "LD R1, A; LD R2, B; ADD R1, R2",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea la operación vectorial MULTV V2, V1, VO (vectores de 64 elementos) con tiempo de arranque de 6 ciclos y tasa de iniciación de 1 ciclo/resultado, el tiempo de operación vectorial es de:",
+    "option": [
+      "(64x6) ciclos",
+      "70 ciclos",
+      "(3x64x6) ciclos",
+      "(6+1) ciclos"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En base a la clasificación de Flynn sobre los sistemas computadores, en una arquitectura de tipo MISD:",
+    "option": [
+      "Hay un flujo de instrucciones por cada procesador",
+      "El flujo de instrucciones es compartido",
+      "No hay memoria para las instrucciones",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una máquina A que ejecuta un programa en 20 segundos. Si se dice que una máquina B es el 10% más lenta la máquina A:",
+    "option": [
+      "La máquina B tarda 2 segundos más en ejecutar el mismo programa",
+      "La máquina B tarda 1 segundo más en ejecutar el mismo programa",
+      "La máquina B tarda 30 segundos en ejecutar el mismo programa",
+      "La máquina B tarda menos en ejecutar el mismo programa"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema computador al que se le aplica la siguiente mejora: se modifica la CPU, que se utiliza el 60%, haciendo que ésta sea 2 veces más rápida, se puede afirmar que:",
+    "option": [
+      "La mejora aplicada no merece la pena",
+      "La aceleración global es de 1,43",
+      "La aceleración global es de 0,76",
+      "La aceleración global es de 2"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea un sistema computador sobre el que se aplica una mejora que resulta en una aceleración global de 1. Esto implica que:",
+    "option": [
+      "El sistema mejorado es el 100% más rápido que antes",
+      "La mejora se utiliza el 100% del tiempo total",
+      "No se ha conseguido reducir el tiempo de ejecución",
+      "El tiempo de ejecución es 1 seg"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea un sistema con arquitectura serie Von Neumann que emplea 18 ciclos en ejecutar 3 instrucciones:",
+    "option": [
+      "Significa que tiene una frecuencia = 6 MHz",
+      "Significa que tiene un ciclo de reloj = 18 ns",
+      "Significa que tiene un rendimiento del 18%",
+      "Significa que tiene un CPI medio = 6"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea una máquina con arquitectura DLX capaz de ejecutar 20 MFLOPS y frecuencia de procesamiento = 2 GHz",
+    "option": [
+      "Se necesitan 100 ciclos por FLOP",
+      "Se necesitan 20 ciclos por FLOP",
+      "Se necesitan 400 ciclos por FLOP",
+      "Se necesita 1 ciclo por FLOP"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una memoria caché organizada en conjuntos, con 1 bloque/conjunto:",
+    "option": [
+      "El bloque tendrá tantas palabras como contiene la Memoria Principal",
+      "Equivale a tener una función de correspondencia directa",
+      "Equivale a tener una función de correspondencia totalmente asociativa",
+      "Un conjunto nunca puede tener un único bloque"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "De los algoritmos de reemplazo utilizados en la memoria caché, el que penaliza el bloque que acaba de entrar es:",
+    "option": [
+      "El algoritmo FIFO",
+      "El algoritmo LRU",
+      "El algoritmo LFU",
+      "Ninguno penaliza el bloque que acaba de entrar"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "En relación a los tipos de fallo de caché, indica cuál de las siguientes afirmaciones es cierta:",
+    "option": [
+      "Los fallos de capacidad sólo se dan en correspondencia asociativa por conjuntos",
+      "Los fallos de conflicto sólo se dan en correspondencia totalmente asociativa",
+      "La correspondencia directa no presenta fallos de conflicto",
+      "Pueden existir fallos forzosos aun cuando la caché esté llena"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En relación al tamaño de caché:",
+    "option": [
+      "Los fallos forzosos son independientes del tamaño",
+      "Los fallos de capacidad aumentan con el tamaño",
+      "Los fallos de conflicto aumentan con la asociatividad",
+      "Ninguno de los tipos de fallos depende del tamaño"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una memoria caché de 2 niveles, sabiendo que de 1000 referencias a memoria hay 30 fallos en la caché de primer nivel y 9 fallos en la de segundo nivel. ¿Cuáles son las respectivas frecuencias locales de fallos?",
+    "option": [
+      "3% para L1 y L2",
+      "3% para L1 y 30% para L2",
+      "33% para L1 y 30% para L2",
+      "0.3% para L1 y 3% para L2"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Atendiendo a la arquitectura serie Von Neumann estudiada, si el registro RF tiene un tamaño de 4 bits:",
+    "option": [
+      "El firmware tendrá como máximo 16 microprogramas",
+      "Cualquier instrucción se ejecutará en 4 ciclos",
+      "Los microprogramas tendrán un máximo de 16 µinstrucciones cada uno",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea un sistema con Unidad de Control Microprogramada, la Memoria de Control:",
+    "option": [
+      "Este tipo de sistemas no tienen memoria de control",
+      "Contiene el contenido de los registros PC y SR",
+      "Contiene la dirección de la siguiente instrucción",
+      "Contiene el valor de las señales de control para todos los microprogramas asociados a la máquina"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea un sistema con Unidad de Control Microprogramada con secuenciamiento implicito, y etapa traductora ROM de 256 posiciones x 10 bits:",
+    "option": [
+      "El sistema podrá ejecutar hasta 256 instrucciones",
+      "El sistema podrá ejecutar hasta 8 instrucciones",
+      "El ancho de memoria de control son 10 bits",
+      "La memoria de control tiene 10 posiciones"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema con capacidad de memoria de 64 Kposiciones, si durante el arranque del sistema se ha predefinido que PC = F000h:",
+    "option": [
+      "La pila está implementada a partir de la dirección F000h",
+      "El programa cargador se ubica a partir de la dirección F000h",
+      "Existe un error en la definición del valor",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "De los siguientes eventos, indica el que corresponde a interrupción interna no programada:",
+    "option": [
+      "INT 21h",
+      "Interrupción de periférico TIMER 18255",
+      "DIV.2, 3; con R3 = 0 provocando TRAP",
+      "Corte de suministro eléctrico por batería descargada"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea la arquitectura DLX estudiada, la ejecución de la instrucción (carga media palabra con extensión de signo) LH R1, 10(R2) con M(10+R2) = 5 implica:",
+    "option": [
+      "Completar con 1s los 16 bits más significativos de R1",
+      "Completar con el valor 5 la parte alta de R1",
+      "Completar con el valor 5 la parte alta de R2",
+      "Completar con Os los 16 bits más significativos de R1"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En base a la arquitectura DLX estudiada, ¿qué tipo de registros nos garantizarían mayor precisión a la hora de representar el número π = 3,141592653589...?",
+    "option": [
+      "Los registros de coma flotante combinados en doble precisión (Fi-Fi+1)",
+      "Dos registros de coma fija (Ri - Ri+1)",
+      "Un registro de coma flotante de simple precisión (Fi)",
+      "El registro RO"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea la secuencia de instrucciones: ADD R1, R2, R3 y LW R2, 10(R4) implementada sobre la arquitectura escalar DLX estudiada:",
+    "option": [
+      "Implica detención porque supone riesgo de tipo RAW",
+      "No supone riesgo",
+      "Implica detención porque supone riesgo de tipo WAR",
+      "Implica detención porque supone riesgo de tipo WAW"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea la secuencia de instrucciones: ADD R1, R2, R3 y LW R2, 10(R4) implementada sobre la arquitectura DLX súper-escalar de dos cauces:",
+    "option": [
+      "Las dos instrucciones deben ir por el mismo cauce debido a la dependencia de datos que tienen",
+      "No es posible ejecutar las instrucciones en una arquitectura súper-escalar",
+      "Cada instrucción puede ir por un cauce diferente ya que no existe dependencia de datos",
+      "Para ejecutar las instrucciones es necesario que la arquitectura sea vectorial"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea el extracto de código con bucles modificado, si se convierte a su forma extendida, estamos:",
+    "option": [
+      "Aumentando el paralelismo por planificación de traza",
+      "Aumentando el paralelismo por desenrollado de bucle",
+      "Aumentando el paralelismo por técnica hardware",
+      "Aumentando el paralelismo por segmentación software"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sean la instrucción vectorial ADDV V1, V2, V3 con longitud de vector = 64 elementos, tiempo de arranque = 6 ciclos y tiempo de iniciación = 1 ciclo, ¿cuántos ciclos se necesitan como minimo para obtener los primeros 32 elementos del resultado?",
+    "option": [
+      "38 ciclos",
+      "224 ciclos",
+      "7 ciclos",
+      "71 ciclos"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema con la arquitectura DLX vectorial estudiada y memoria organizada en bancos de memoria (4 bancos), si la CPU solicita la dirección 32 (y siguientes), ésta se encuentra:",
+    "option": [
+      "En el banco 4",
+      "En el banco 0",
+      "En el banco 1",
+      "En el banco 2"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea un vector de 200 elementos sobre el que se realiza una operación vectorial en una arquitectura con MVL = 64:",
+    "option": [
+      "El vector se divide en 3 secciones de 64 elementos",
+      "El vector se opera en su totalidad sin seccionamiento",
+      "El vector se divide en 3 secciones de 64 elementos y otra de 8 elementos",
+      "El vector se divide en 2 secciones de 64 elementos"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sean las sentencias de un bucle S1: B(i) = A(i-1) * K y S2: C(i)= B(i) + A(i), con i = 1 ... 64:",
+    "option": [
+      "La sentencia S1 es vectorizable",
+      "Las dos sentencias son vectorizables",
+      "Ninguna sentencia es vectorizable",
+      "La sentencia S2 es vectorizable"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sean las sentencias de un bucle S1: B(i) = A(i)/K y S2: C(i) = B(i) + A(i), con i = 1...64:",
+    "option": [
+      "Existe riesgo de tipo RAW en S2 respecto a S1",
+      "Existe riesgo de tipo RAR en S2 respecto a S1",
+      "Existe riesgo de tipo WAR en S2 respecto a S1",
+      "Existe riesgo de tipo WAW en S2 respecto a S1"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Atendiendo al esquema de la arquitectura Harvard estudiada:",
+    "option": [
+      "Presenta una única memoria de instrucciones y de datos",
+      "Diferencia una memoria de instrucciones y otra de datos",
+      "Presenta dos unidades operativas",
+      "Presenta dos unidades de control"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea el polinomio R(x) = x^2+bx, si se desea calcular empleando una arquitectura súper-escalar tipo array sistólico:",
+    "option": [
+      "Se necesitan 1 ciclo y 2 elementos de proceso",
+      "Se necesitan 3 ciclos y 3 elementos de proceso",
+      "Se necesitan 1 ciclo y 1 elemento de proceso",
+      "Se necesitan 2 ciclos y 3 elementos de proceso"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Considerando una arquitectura super-escalar multihebra con entrelazado:",
+    "option": [
+      "Después de cada ciclo, conmuta a otra hebra",
+      "Después de cada detención, conmuta a otra hebra",
+      "Conmuta a otra hebra cuando finaliza con la anterior",
+      "Debe tener tantos cauces como hebras"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Dado un terminal de smartphone con procesador Exynos a 2,3GHz y 6 GB de RAM:",
+    "option": [
+      "Se incluye dentro de los sistemas denominados minicomputadores",
+      "Se incluye dentro de los sistemas denominados microcomputadores",
+      "Se incluye dentro de los sistemas denominados computadores de tamaño medio",
+      "Se incluye dentro de los sistemas denominados supercomputadores"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Desde el punto de vista del estudio del rendimiento de un sistema computador, por lo general si se reduce el tiempo de ciclo de reloj:",
+    "option": [
+      "Se reduce también su frecuencia",
+      "Se aumentan los ciclos por instrucción",
+      "Se aumenta su productividad y se reduce su tiempo de respuesta",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea un computador A capaz de completar 10.000 tareas/seg, si se dice la productividad del computador A es un 50% superior a la porductividad del computador B:",
+    "option": [
+      "El computador B realiza 3.333,33 tareas en 1 seg",
+      "El computador B requiere de 1,5 segundos para realizar el mismo número de tareas que el computador B realiza 7.500 tareas",
+      "El computador A tarda 0,5 seg en cada tarea",
+      "El computador A realiza 15.000 tareas en el mismo tiempo"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En cuanto a la mejora del rendimiento, indica cuál de las siguientes afirmaciones es cierta:",
+    "option": [
+      "La optimización de todos los casos garantiza el mayor rendimiento",
+      "El mayor rendimiento se obtiene optimizando el caso más común",
+      "El rendimiento puede mejorarse de forma ilimitada",
+      "La mejora del rendimiento global se obtiene optimizando el caso menos común"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Indica la afirmación que NO es cierta:",
+    "option": [
+      "El tiempo de CPU depende del ciclo de reloj",
+      "El tiempo de CPU depende de los ciclos por instrucción",
+      "El tiempo de CPU depende de número de instrucciones ejecutadas",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea un sistema computador con microprocesador Intel i7 a 3,4GHz, si después de pasarle un Benchmark se obtiene que es capaz de ejecutar 128.300 MIPS:",
+    "option": [
+      "Se estima que ejecuta 16.500 instrucciones en un ciclo",
+      "Se estima que cada instrucción requiere de 0,0265 ciclos para su ejecición",
+      "Se puede decir que cada ciclo de reloj dura 3,4 seg",
+      "Faltan datos para conocer el promedio del número de ciclos por instrucción"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Respecto a la memoria caché, el tiempo de penalización por fallos:",
+    "option": [
+      "Disminuye a medida que aumenta el tamaño de bloque",
+      "Es constante",
+      "Aumenta a medida que aumenta el tamaño de bloque",
+      "Depende exponencialmente con el tamaño del bloque"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Los mecanismos de gestión de la memoria caché se resuelven con componente hardware",
+    "option": [
+      "Para cumplir el requisito de menor uso de memoria",
+      "Para cumplir el reuqisito de menor tiempo posible",
+      "La afirmación es incorrecta, se resuelven con software",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Respecto a los algoritmos de reemplazo de la memoria caché, sea un bloque que acaba de entrar en la memoria:",
+    "option": [
+      "Tiene mayor probabilidad de salir si se aplica LRU",
+      "Tiene mayor probabilidad de salir en cualquier caso",
+      "Tiene mayor probabilidad de salir si se aplica FIFO",
+      "Tiene mayor probabilidad de salir si se aplica LFU"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En relación al tamaño de bloque:",
+    "option": [
+      "A mayor tamaño, menores fallos forzosos pero mayores fallos de conflicto",
+      "A mayor tamaño, menor tasa de fallos",
+      "A mayor tamaño, menores fallos forzosos y menores fallos de conflicto",
+      "A mayor tamaño, mayor número de conjuntos"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Atendiendo a los niveles de caché, se puede afirmar que:",
+    "option": [
+      "Un mayor número de niveles garantiza siempre un menor tiempo de acceso",
+      "A mayor número de niveles, mayor capacidad de almacenamiento",
+      "Un mayor número de niveles, garantiza siempre un menor tiempo de ejecución relativo",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Según el esquema de computador Von Neumann sencillo estudiado en el Tema 3, la operación R4 <- R7:",
+    "option": [
+      "Se realiza comunicando el bus de direcciones con el bus de datos",
+      "No es posible realizarla en este sistema computador",
+      "Implica hacer uso del circuito operador de propósito general",
+      "Es necesario realizarla como minimo en dos periodos"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "En un computador serioe y referido a la misma instrucción, si la fase de decodificación de una instrucción se realiza durante un único ciclo de reloj, ¿puede solaparse con la fase de búsqueda de operando?:",
+    "option": [
+      "Si",
+      "Depende de la instrucción",
+      "No",
+      "Depende del modo de direccionamiento de la instrucción"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Una unidad de control microprogramada con secuenciamiento explicito:",
+    "option": [
+      "No tiene etapa traductora ni memoria de control",
+      "Necesita etapa traductora y memoria de control",
+      "Su registro de microinstrucción es de menor tamaño",
+      "No necesita etapa traductora, y si memoria de control"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea el computador Von Neumann estudiado en el Tema 3, la información del registro RF permite:",
+    "option": [
+      "Conocer la posición de memoria de la instrucción",
+      "Conocer el valor de los biestables de Z, S, O, P",
+      "No es útil para la ejecución de la instrucción",
+      "Conocer la fase de ejecución de la instrucción en curso"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "De las siguientes instrucciones, indica en cuál de ellas se almacena el contenido del registro SR en memoria:",
+    "option": [
+      "DIV.1, .2 con trap por división por cero",
+      "RET RETI",
+      "CALL A0002h y DIV.1, .2 con trap",
+      "En ninguna de las instrucciones indicadas"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "La capacidad de direccionamiento del procesador DLX es de:",
+    "option": [
+      "6 Mposiciones",
+      "4 Mposiciones",
+      "4 Gposiciones",
+      "2 Gposiciones"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Decir que todas las instrucciones del procesador DLX siguen el modelo de ejecución REG-REG es:",
+    "option": [
+      "Falso",
+      "Cierto",
+      "Puede ser cierto o falso, dependiendo del ensamblador",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "¿Cuál es el tipo de riesgo por dependencia de datos que se presenta en el fragmento de código ensamblador siguiente si se ejecuta en un procesador DLX segmentado con bypass generalizado?: LD R3, 12(R3) ST 12(R3), R2",
+    "option": [
+      "WAR",
+      "RAW",
+      "WAW",
+      "Ninguno"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Cuál de las siguientes técnicas suele utilizarse para eliminar riesgos estructurales:",
+    "option": [
+      "Disminuir el nº de lineas de transmisión de datos y buses",
+      "Utilizar caches partidas para datos e instrucciones",
+      "Incrementar la velocidad del reloj del sistema",
+      "Las politicas dinámicas de predicción de saltos"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Los riesgos de tipo WAW:",
+    "option": [
+      "Pueden existir en DLX",
+      "No existen en DLX",
+      "Son riesgos estructurales",
+      "Son riesgos de control"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Un computador que tiene instrucciones vectoriales en su repertorio:",
+    "option": [
+      "Es vectorial",
+      "No tiene por qué ser vectorial",
+      "Nunca es vectorial",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En un computador vectorial, la separación entre elementos diferente de 1 se resuelve",
+    "option": [
+      "Con instrucciones de Carga y Almacenoamiento Vectorial con Separación",
+      "Con un Registro de Máscara de Vector",
+      "Con un Registro de Longitud de Vector",
+      "Sólo en algunos computadores vectoriales"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "La carga de un vector en un registro vectorial:",
+    "option": [
+      "Siempre es más rápida en una Memoria Organizada por Bancos que en una Memoria Enlazada",
+      "Puede ser igual de rápida en una Memoria Organizada por Bancos que en una Memoria Entrelazada",
+      "Siempre es más rápida en una Memoria Entrelazada que en una Memoria Organizada por Bancos",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Un computador vectorial cuyas componentes de vector son de 64 bits tiene una memoria entrelazada con 4 módulos de memoria, ¿en qué módulo de memoria se encontrará la dirección?",
+    "option": [
+      "En el módulo 0",
+      "En el módulo 2",
+      "En el módulo 1",
+      "En el módulo 3"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Considerando el tiempo de ejecución de una operación vectorial, al tiempo por cada resultado una vez que una instrucción vectorial está en ejecución se le denomina:",
+    "option": [
+      "Tiempo de comienzo",
+      "Tiempo de arranque",
+      "Tiempo de terminación",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Un ordenador de flujo de datos",
+    "option": [
+      "Puede ser un computador serie",
+      "Utiliza la necesidad que tiene un resultado de disparar la operación que generará el resultado requerido",
+      "Es un computador paralelo",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "La arquitectura Harvard:",
+    "option": [
+      "Tiene una memoria caché partida",
+      "Tiene una memoria caché unificada",
+      "No difiere en nada de la arquitectura Von Neumann",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Un computador SIMD Múltiple (MSIMD):",
+    "option": [
+      "Es un sistema multicomputador",
+      "Sus UC comparten un conjunto de Elementos de Proceso asignables dinámicamente",
+      "SOn siempre de memoria distribuida",
+      "Tiene una única unidad de control que define el valor de las señales de control de varios Elementos de Proceso"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En un array sistólico:",
+    "option": [
+      "Todos los procesadores se comunican con los periféricos directamente",
+      "Existe una red de procesadores donde cada uno de ellos tienen comunicación directa con sus vecinos",
+      "Hay tantas frecuencias de reloj diferentes como procesadores tiene",
+      "Sus procesadores no pueden comunicarse con el exterior"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Un multiprocesador UMA:",
+    "option": [
+      "Puede tener una caché para cada procesador",
+      "Tiene más capacidad de memoria que uno NUMA",
+      "Tiene menos capacidad de memoria que uno NUMA",
+      "No puede tener una caché para cada procesador"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Considérese una mejora que haga que la máquina corra 5 veces más rápida que la original, siendo utilizable el 60% del tiempo. ¿Cuál es la aceleración global lograda al incorporar la mejora?",
+    "option": [
+      "1,9230",
+      "0,5200",
+      "0,3",
+      "Ninguna de las afirmaciones anteiores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un computador A capaz de completar 10.000 tareas/seg y un computador B que completa 5.000 tareas/seg, se dice entonces que:",
+    "option": [
+      "El computador A es el 150% más rápido que el B",
+      "El computador A es el 100% más rápido que el B",
+      "El computador A es el 50% más rápido que el B",
+      "El computador A es el 200% más rápido que el B"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Si una máquina A ejecuta un programa en diez segundos, ¿en cuánto tiempo ejecuta el mismo programa la máquina B si la máquina A es el 50% más rápida que la B?",
+    "option": [
+      "En 15 seg",
+      "En 10,5 seg",
+      "En 20 seg",
+      "Se necesitan más datos para conocer la respuesta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Para mejorar el rendimiento de un computador para cierta aplicación se tienen dos opciones: 1) Cambiar el procesador gráfico que se utiliza un 60% del tiempo, consiguiendo una aceleración de 10, y 2) Incrementar la memoria obteniendo una aceleración de 2 el 80% del tiempo. Indicar la aceleración global en cada caso.",
+    "option": [
+      "0,6 en la primera y 0,8 en la segunda",
+      "2,17 en la primera y 1,66 en la segunda",
+      "6 en la primera y 1,6 en la segunda",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea un sistema computador capaz de ejecutar 150 MIPS y cada instrucción requiere de media 5 ciclos de reloj:",
+    "option": [
+      "Cada instrucción requiere 150 ns",
+      "La frecuencia del microprocesador es de 800 MHz",
+      "Cada ciclo de reloj dura 30 ns",
+      "Cada ciclo de reloj dura 150 ns"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea una CPU donde la instrucción de bifurcación condicional emplea dos ciclos de reloj, y el resto de instrucciones cuatro ciclos, considerando que el 20% de las instrucciones empleadas son de bifurcación condicional:",
+    "option": [
+      "El primedio de CPI es 3",
+      "El promedio CPI es 0,4",
+      "El promedio de CPI es 3,6",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "La transferencia de información entre la memoria caché y la CPU se hace:",
+    "option": [
+      "En tamaño bloque",
+      "En tamaño palabra",
+      "Depende de la función de correspondencia",
+      "Depende del algoritmo de reemplazo"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea una memoria caché con un único conjunto, entonces:",
+    "option": [
+      "La función de correspondencia es la asociativa por conjuntos",
+      "La función de correspondencia es la directa",
+      "La función de correspondencia es la totalmente asociativa",
+      "La función de correspondencia puede ser cualquiera"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "En relación al tamaño de la caché:",
+    "option": [
+      "A mayor tamaño, menor tasa de fallos siempre",
+      "A mayor tamaño, mayor tasa de fallos",
+      "Hay un compromiso entre tamaño y tasa de fallos",
+      "La tasa de fallos siempre es constante"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "De las funciones de correspondencia de la memoria caché, la que emplea un único comparador para identificar el bloque es:",
+    "option": [
+      "La asociativa por conjuntos",
+      "La totalmente asociativa",
+      "Todas necesitan más de un comparador",
+      "La directa"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "De los algoritmos de reemplazo en la memoria caché, el que penaliza los bloques transferidos recientemente es:",
+    "option": [
+      "El FIFO",
+      "El Aleatorio",
+      "El LFU",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "De los tiempos que intervienen en la penalización por fallo:",
+    "option": [
+      "El tiempo de transferencia es independiente del tamaño del bloque",
+      "Sólo interviene el tiempo de transferencia",
+      "El tiempo de acceso es independiente del tamaño de bloque",
+      "Ambos términos dependen del tamaño de bloque"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Si para realizar la operación C <- A + B se necesitan las instrucciones PUSH A, PUSH B, ADD PUSH C:",
+    "option": [
+      "Se trata de una máquina basada en acumulador",
+      "Se trata de una máquina basada en banco de registros",
+      "Se trata de una máquina de tres direcciones",
+      "Se trata de una máquina basada en pila"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea el computador Von Neumann estudiado en el Tema 3, si el registro RF lo forman 4 bits:",
+    "option": [
+      "La duración máxima por instrucción es 4 ciclos",
+      "La duración máxima por instrucción es 1 ciclo",
+      "No existe relación con la duración de la instrucción",
+      "La duración máxima por instrucción es 16 ciclos"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "De las siguientes instrucciones, indica en cuál/es de ella/s se recuperará/n el contenido del registro SR de memoria:",
+    "option": [
+      "DIV.1, .2 con trap por división por cero",
+      "RET RETI",
+      "CALL A0002h y DIV.1, .2 con trap",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En una unidad de control microprogramada con secuenciamiento explicito, si la etapa traductora ROM tiene una organización de 256x12, podemos afirmar que:",
+    "option": [
+      "El código de operación es de 8 bits",
+      "El registro de instrucción lo forman 8 bits",
+      "Dicha unidad microprogramada no tienen etapa ROM",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sean las instrucciones JMP A0002h, RET y BZ A0002h con el biestable z = 0:",
+    "option": [
+      "Sólo JMP implica una bifurcación",
+      "En todas se debe guardar el valor de PC en la pila",
+      "JMP y RET implicarán bifurcación",
+      "Las tres implican bifurcación"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Para que el arranque del computador se realice correctamente:",
+    "option": [
+      "Se requiere que todos los registros tengan inicialmente el valor 0",
+      "Se requiere que la pila tenga almacenado SR y PC",
+      "Se requiere de un programa cargador almacenado en memoria no volátil",
+      "Se requiere que la primera instrucción sea LOAD"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Indica los tipos de riesgos por dependencia de datos que pueden existir en el procesador DLX para operaciones con enteros:",
+    "option": [
+      "RAW WAR",
+      "RAW, WAR WAW",
+      "Sólo RAW",
+      "RAW WAW"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Dada la instrucción LD R3, 12(R4), la fase en la que se calcula 12+R4 es:",
+    "option": [
+      "ID",
+      "EX",
+      "MEM",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "De las fases de ejecución del procesador DLX, para una instrucción ALU:",
+    "option": [
+      "En ninguna fase se accede a memoria",
+      "La fase ID es diferente al resto de instrucciones",
+      "El resuñtado viene expresado en estándar IEEE 754 de simple precisión",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea la secuencia DIVF FO, F1, F2 y SUBF FO, F8, F10, existe riesgo de tipo:",
+    "option": [
+      "Estructural",
+      "Por dependencia de datos tipo WAW",
+      "De control",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Comparando los registros RO y FO, del procesador DLX:",
+    "option": [
+      "Ambos registros almacenan el valor 0",
+      "RO siempre almacena el valor 0",
+      "FO es un registro de 64 bits",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En el procesador DLXV, considerando el tiempo de ejecución de una operación vectorial, al tiempo por cada resultado una vez que una instrucción vectorial está en ejecución se le denomina:",
+    "option": [
+      "Tiempo de comienzo",
+      "Tiempo de arranque",
+      "Tiempo de terminación",
+      "Tiempo de iniciación"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Un computador vectorial cuyas componentes de vector son de 64 bits tiene una memoria entrelazada con 4 módulos de memoria, ¿en qué módulo de memoria se encontrará la dirección 160?",
+    "option": [
+      "En el módulo 0",
+      "En el módulo 2",
+      "En el módulo 1",
+      "En el módulo 3"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "En un computador vectorial en el que los elementos de una matriz están almacenados en memoria por filas, para la operación matricial A B (A y B matrices), ¿a qué matriz se puede acceder más fácilmente?:",
+    "option": [
+      "A la matriz B",
+      "A las dos matrices igualmente",
+      "Depende del tamaño de las componentes",
+      "A la matriz A"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Dado un vector de 200 elementos, indicar el número de seccionamientos con longitud MVL = 64 que tiene:",
+    "option": [
+      "4",
+      "3",
+      "8",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Comparando la arquitectura Von Neumann con la DLX, indica la afirmación falsa:",
+    "option": [
+      "La segunda permiten ejecutar varias instrucciones simultáneamente",
+      "La primera es segmentada",
+      "La segunda ejecuta instrucciones ALU con modelo Reg-Reg",
+      "Ambas consideran el incrementeo del registro PC"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Indicar la arquitectura en la que una memoria caché partida daría mejor rendimiento",
+    "option": [
+      "DLX",
+      "Von Neumann",
+      "La memoria caché partida no mejora el rendimiento",
+      "La memoria caché partida exige adelantamiento"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "En un sistema computador, y referida a la tarea de cálculo completa, la cantidad de trabajo realizado por unidad de tiempo se denomina:",
+    "option": [
+      "Tiempo de respuesta",
+      "Productividad",
+      "Tiempo de ejecución",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Atendiendo a los conceptos de productividad y tiempo de respuesta de un procesador, la segmentación mejora:",
+    "option": [
+      "El tiempo de respuesta",
+      "La productividad",
+      "El tiempo de respuesta y la productividad",
+      "Depende de qué se segmente en la Unidad de Control"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "El Principio de Localidad de Referencia, se aplica:",
+    "option": [
+      "Tanto a los accesos de datos como de instrucciones",
+      "Únicamente a los accesos de datos",
+      "Únicamente a los accesos de instrucciones",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "El rendimiento de la CPU depende del:",
+    "option": [
+      "CPI (Ciclos Por Instrucción) y del Recuento de Instrucciones",
+      "CPI (Ciclos Por Instrucción) únicamente",
+      "Recuento de instrucciones únicamente",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Considérese una mejora en una máquina de 10 veces que es utilizable tan solo el 40% del tiempo. ¿Cuál es la aceleración global lograda al incorporar dicha mejora?",
+    "option": [
+      "0,64",
+      "1/0,64",
+      "2,0",
+      "1,4"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Los MIPS (Millones de Instrucciones Por Segundo):",
+    "option": [
+      "Nos permiten calcular exactamente el tiempo de ejecución de un programa real",
+      "No varían entre programas en el mismo computador",
+      "Son dependientes del repertorio de instrucciones de la máquina",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Los MFLOPS (Millones de Operaciones en Punto Flotante Por Segundo) dependen:",
+    "option": [
+      "Únicamente del programa que se ejecute",
+      "Únicamente de la máquina",
+      "Tanto de la máquina como del programa que se ejecute",
+      "Del tipo de instrucciones lógicas que tenga la máquina"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "La frecuencia o tasa de aciertos en memoria se define como:",
+    "option": [
+      "La fracción de accesos a memoria encontrados en cualquier nivel de la jerarquía de memoria",
+      "La fracción de accesos a memoria encontrados en el nivel inferior",
+      "La fracción de accesos a memoria no encontrados en el nivel inferior",
+      "La fracción de accesos a memoria encontrados en el nivel superior"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Atendiendo a los tipos de fallos de caché: forzosos, de conflicto y de capacidad:",
+    "option": [
+      "Los fallos de conflicto no pueden existir en una caché de correspondencia asociativa por conjuntos",
+      "Los fallos de capacidad no pueden existir nunca en una memoria caché de correspondencia totalmente asociatīva",
+      "Los fallos forzosos pueden darse o no en una memoria caché de correspondencia totalmente asociativa",
+      "Los fallos de conflicto no pueden existir nunca en una memoria caché de correspondencia totalmente asociativa"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Para un mismo sistema de memoria y distintas correspondencias, el menor tamaño del campo etiqueta es el de la correspondencia:",
+    "option": [
+      "Directa",
+      "Asociativa por conjuntos",
+      "Totalmente asociativa",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "El número de comparaciones de las etiquetas de los bloques existentes en la memoria caché, crece:",
+    "option": [
+      "Con al menor asociatividad",
+      "Con la mayor asociatividad",
+      "Con el número de conjuntos",
+      "Con el tamaño del bloque"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Los mecanismos de búsqueda o politicas de búsqueda determinan la causa que desencadena la llevada de un bloque a la memoria caché; ¿Cuál es la más común?",
+    "option": [
+      "Por demanda",
+      "Selectivo",
+      "Anticipativo",
+      "Ninguno de los mecanismos nombrados se corresponden con politicas de búsqueda"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es cierta?",
+    "option": [
+      "Cuando existen varios niveles de caché, si hay una caché partida siempre se aplica al nivel inferior",
+      "En una memoria caché se puede aplicar siempre algún algoritmo de reemplazo",
+      "El rendimiento de una configuración concreta de caché nunca depende del programa que se ejecute",
+      "En una memoria caché no siempre es necesario aplicar algoritmo de reemplazo"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "¿Qué estrategia de escritura resuelve más fácilmente los problemas de coherencia?",
+    "option": [
+      "Depende del tipo de correspondencia que se utilice",
+      "La de post-escritura",
+      "La de escritura inmediata",
+      "Depende del programa que se ejecute"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "A mayor tamaño de bloque corresponde:",
+    "option": [
+      "Mayor tasa de acierto por localidad temporal",
+      "Mayor tasa de acierto por localidad espacial",
+      "Mayor tasa de aciertos por localidad temporal y menor tasa de aciertos por localidad espacial",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Atendiendo a las posibles combinaciones de operandos en memoria y operandos totales por instrucción que implica la operación diádica en un sistema computador, indica cuál de las siguientes afirmaciones NO es cierta:",
+    "option": [
+      "Una máquina puede tener dos operandos por instrucción y ninguno referenciado a memoria",
+      "Una máquina puede tener un operando por instrucción y dos referenciados a memoria",
+      "Una máquina puede tener tres operandos por instrucción y los tres referenciados a memoria",
+      "Una máquina puede tener dos operandos por instrucción y uno referenciado a memoria"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En base al esquema de la arquitectura Von Neumann estudiado en clase, la operación R2 <- R1 se considera:",
+    "option": [
+      "Una operación elemental de transferencia",
+      "Una operación elemental de proceso",
+      "No es posible realizar esta operación",
+      "Una operación elemental de carga"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "La definición de Micro-Programa corresponde a:",
+    "option": [
+      "El valor de las señales de control durante un periodo de ejecución de una misma instrucción",
+      "El valor de las señales de control durante un mismo periodo de ejecución de todas las instrucciones",
+      "El valor de las señales de control durante todos los periodos de ejecución de una instrucción",
+      "El valor de las señales de control durante el cuclo de Decodificación de todas las instrucciones"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Indica el posible solapamiento entre las fases de ejecución de una instrucción en un computador Von Neumann:",
+    "option": [
+      "Decodificación y Búsqueda de Instrucción",
+      "Decodificación y Búsqueda de Operando",
+      "Búsqueda de Operando y Búsqueda de Instrucción",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En una unidad de control microprograma, indica cuántos microprogramas tiene asociados una instrucción del tipom BZ A0000h:",
+    "option": [
+      "Dos, uno para cada posible valor del biestable",
+      "Cada instrucción tiene un único microprograma",
+      "Los mismos que tiene la instrucción JMP A0000h",
+      "Esta unidad de control no almacena microprogramas"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una unidad de control microprogramada con secuenciamiento explícito, 8 bits en el campo código de operación del registro de instrucción y 20 señales de control, la organización de la memoria de control es de:",
+    "option": [
+      "256 palabras x 20 bits cada palabra",
+      "1 Mpalabras x 256 bits cada palabra",
+      "256 palabras x n bits por palabra, n >= 1",
+      "Faltan datos para conocer la organización"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Indica las situaciones en las que se guarda el valor del registro SR en la pila:",
+    "option": [
+      "Cuando se ejecuta una instrucción del tipo CALL",
+      "Cuando se ejecuta una instrucción del tipo RETI",
+      "Cuando se provoca una interrupción vectorizada",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea la arquitectura DLX con unidades funcionales para operaciones en formato de coma flotante donde la unidad sumador/restador requiere 2 ciclos y la de división requiere 5 ciclos, dada la secuencia DIVF FO, F1, F2 y SUBF F1, F3, F4, existe riesgo de tipo:",
+    "option": [
+      "Estructural",
+      "Por dependencia de datos tipo WAR",
+      "De control",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En la arquitectura DLX, el Adelantamiento Generalizado permite:",
+    "option": [
+      "Reducir el número de detenciones derivadas de riesgos por dependencia de datos",
+      "Reducir los riesgos de control",
+      "Eliminar totalmente el número de detenciones derivadas de riesgos por dependencia de datos",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea la arquitectura DLX, la instrucción BNEQZ R4, A000h:",
+    "option": [
+      "Atiende al formato de instrucción tipo I",
+      "Atiende al formato de instrucción tipo R",
+      "Atiende al formato de instrucción tipo J",
+      "Esta instrucción no se puede ejecutar con el DLX"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Los riesgos por dependencia de datos del tipo WAR pueden existir en:",
+    "option": [
+      "Una arquitectura DLX que sólo tenga unidades funcionales para operaciones con enteros",
+      "Una arquiteectura DLX con unidades funcionales en FP y todas con el mismo tiempo de ejecución",
+      "Una arquitectura DLX con unidades funcionales en FP y distinto tiempo de ejecución",
+      "Las respuestas By C son correctas"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Las propuestas de arquitecturas Supersegmentadas y Superescalares son:",
+    "option": [
+      "Técnicas software para mejorar el paralelismo a nivel de instrucción",
+      "Técnicas hardware para mejorar el paralelismo a nivel de instrucción",
+      "Técnicas hardware-software para mejorar el paralelismo a nivel de instrucción",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "El tamaño de palabra que se considera en la arquitectura DLX estudiada es de:",
+    "option": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Comparando las arquitecturas Von Neumann y DLX estudiadas:",
+    "option": [
+      "Ambas permiten ejecutar varias instrucciones simultáneamente",
+      "Ninguna de las dos son arquitecturas segmentadas",
+      "Ambas ejecutan instrucciones ALU con modelo REG-REG",
+      "Ambas consideran la duplicidad de los PC e IR"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea una máquina no segmentada con cinco pasos de ejecución de 50 ns cada uno y otra máquina segmentada también con cinco etapas de 60 ns cada una, a partir del tiempo empleado en la ejecución de 4 instrucciones consecutivas, el tiempo medio por instrucción resulta (considerar que no existe ningún ciclo de detención):",
+    "option": [
+      "250 ns en ambas",
+      "250 ns en la primera y 300 ns en la segunda",
+      "50 ns en ambas",
+      "250 ns en la primera y 120 ns en la segunda"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "La frecuencia o tasa de fallos en memoria se define como:",
+    "option": [
+      "La fracción de accesos a memoria no encontrados en cualquier nivel de la jerarquía de memoria",
+      "La fracción de accesos a memoria no encontrados en el nivel inferior",
+      "La fracción de acceso a memoria no encontrados en el nivel superior",
+      "La fracción de accesos a memoria encontrados en el nivel inferior"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Atendiendo a los tipos de fallos de caché (forzosos, de conflicto, de capacidad), los de conflicto se pueden dar:",
+    "option": [
+      "En cachés con correspondencia directa y asociativa por conjuntos",
+      "En cachés con correspondencia totalmente asociativa nada más",
+      "En cachés con correcpondencia asociativa por conjuntos y totalmente asociativas",
+      "En cachés con correspondencia directa nada más"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Par aun mismo sistema de memoria y distintas correspondencias, el menor tamaño del campo palabra es el de la correspondencia:",
+    "option": [
+      "Directa",
+      "Asociativa por conjuntos",
+      "Totalmente asociativa",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Atendiendo a las posibles combinaciones de operandos en memoria y operandos totales por instrucción que implica operación diádica en un sistema computador, indica cuál de las siguientes afirmaciones NO es cierta:",
+    "option": [
+      "Una máquina puede tener dos operandos por instrucción y ninguno referenciado a memoria",
+      "Una máquina puede tener dos operandos por instrucción y uno referenciado a memoria",
+      "Una máquina puede tener tres operandos por instrucción y los tres referenciados a memoria",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "El valor de todas las señales de control durante un periodo de ejecucción de una instrucción define:",
+    "option": [
+      "Un microprograma",
+      "Una microinstrucción",
+      "Una instrucción",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En un computador serie Von Neumann, indica cuál de las siguientes afirmaciones es cierta:",
+    "option": [
+      "No pueden realizarse operaciones elementales a la vez",
+      "No tiene instrucciones de bifurcación condicional",
+      "Pueden realizarse operaciones elementales la a vez",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "En una unidad de control microprogramada, y suponiendo que no se produce ningún cepo o trap, indica cuántos microprogramas tiene asociados una instrucción del tipo BZ A0000h cuando Z = 0:",
+    "option": [
+      "Dos",
+      "Depende del computador",
+      "Los mismos que tiene la instrucción JMP A0000h",
+      "Esta unidad de control no almacena microprogramas"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea una unidad de control microprogramada con secuenciamiento implicito y 8 bits en el campo código de operación. Indica cuál de las siguientes afirmaciones es cierta:",
+    "option": [
+      "Puede tener una etapa traductora tipo ROM con 256 posiciones",
+      "Obligatoriamente tiene una etapa traductora tipo ROM",
+      "Tiene una memoria de control con 256 posiciones",
+      "No necesita etapa traductora"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Considerando las instrucciones: CALL, RETI, RET, BZ, indica cuál o cuáles de ellas no son de bifurcación",
+    "option": [
+      "RET",
+      "RETI RET",
+      "CALL",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Los riesgos por dependencia de datos del tipo WAW pueden existir en:",
+    "option": [
+      "Una arquitectura DLX que sólo tenga unidades funcionales para operaciones con enteros",
+      "Una arquitectura DLX con unidades funcionales con los mismos tiempos de ejecución",
+      "Una arquitectura DLX con unidades funcionales en FP y distinto tiempo de ejecución",
+      "Las respuestas By C son correctas"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "La propuesta de arquitectura VLIW (Very Long Instruction Word) es:",
+    "option": [
+      "Técnica exclusivamente de software para mejorar el paralelismo a nivel de instrucción",
+      "Técnicas exclusivamente de hardware para mejorar el paralelismo a nivel de instrucción",
+      "Técnica hardware-software para mejorar el paralelismo a nivel de instrucción",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "El tamaño de palabra de memoria que se considera en la arquitectura DLX estudiada es de:",
+    "option": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una máquina no segmentada con cinco pasos de ejecución de 40 ns cada uno y otra máquina segmentada también con cinco etapas de 50 ns cada una, a partir del tiempo empleado en la ejecución de 4 instrucciones consecutivas, el tiempo medio por instrucción resulta (considerar que no existe ningún ciclo de detención):",
+    "option": [
+      "80 ns en ambas",
+      "200 ns en la primera y 100 ns en la segunda",
+      "100 ns en ambas",
+      "80 ns en la primera y 100 ns en la segunda"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En una arquitectura superescalar:",
+    "option": [
+      "No se pueden realizar las mismas fases de distintas instrucciones a la vez",
+      "La supersegmentación siempre está presente",
+      "Se pueden realizar las mismas fases de distintas instrucciones a la vez",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Una memoria por bancos y una entrelazada:",
+    "option": [
+      "Son iguales",
+      "Difieren en la que la primera es sincrona y la segunda es asincrona",
+      "Difieren en que la primera es asincrona y la segunda sincrona",
+      "Difieren en el cálculo de las direcciones a las que acceden todos los bancos a la vez"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Un computador matricial:",
+    "option": [
+      "No tiene instrucciones vectoriales",
+      "Es de tipo MISD según la clasificación de Flynn",
+      "Es de tipo MIMD según la clasificación de Flynn",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En un multiprocesador NUMA:",
+    "option": [
+      "La memoria no está compartida",
+      "La memoria está compartida",
+      "Los accesos a memoria se hacen de igual forma a como se realizan en un multicomputador",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Los ordenadores de flujo de datos:",
+    "option": [
+      "Emplean la disponibilidad de los operandos para disparar la ejecución de las operaciones",
+      "Pueden ser SISD o MIMD",
+      "Usan información explicita de los flujos de control para producir la ejecución de las instrucciones",
+      "Únicamente pueden ser SISD"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Atendiendo a las características de los sistemas micro, mini, gran y súper computadores, el sistema integrado en un teléfono móvil convencional puede considerarse:",
+    "option": [
+      "Microcomputador",
+      "Minicomputador",
+      "Gran computador",
+      "Súper computador"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una arquitectura segmentada sobre la que aplicamos una modificación para convertirla en superescalar:",
+    "option": [
+      "Estamos mejorando el tiempo de ejecución de instrucción",
+      "Mejoramos tiempo de respuesta y productividad",
+      "Estamos mejorando la productividad de la máquina",
+      "No estamos aplicando ninguna mejora"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Atendiendo a la definición de rendimiento estudiada para sistemas computadores:",
+    "option": [
+      "Aumenta cuando aumenta el tiempo de ejecución",
+      "Aumenta cuando disminuye el tiempo de ejecución",
+      "Aumenta cuando aumenta la productivididad",
+      "Aumenta cuando disminuye la productividad"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Si desechamos un ordenador PC con f=1,8 GHz porque pasamos a adquirir otro con f = 3 GHz:",
+    "option": [
+      "La máquina nueva tiene menor productividad",
+      "La máquina antigua tiene menor tiempo de ciclo",
+      "La máquina nueva tiene menor tiempo de ciclo",
+      "El tiempo de ciclo es independiente de la frecuencia"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea un microprocesador con un CPI medio = 3, empleando como tiempo medio de ejecución por instrucción 1,2 ns:",
+    "option": [
+      "La frecuencia de operación es de 2,5 GHz",
+      "El tiempo de ciclo es de 1,2 ns",
+      "La frecuencia de operación es de 3,6 GHz",
+      "La frecuencia de operación es de 3,6 ns"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una máquina dedicada principalmente a realizar dos tareas a las que dedica el 75% y el 25% del tiempo, para mejorar su rendimiento:",
+    "option": [
+      "Debemos aplicar mejora en las dos tareas",
+      "Interesará aplicar mejora en la primera tarea",
+      "Es suficiente con aplicar mejorar en la segunda tarea",
+      "No es posible mejorar su rendimiento"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea el microprocesador Raspberry Pi 2 con 4 MIPS a 1 GHz:",
+    "option": [
+      "Dedica 1 ns a cada instrucción",
+      "Ejecuta 25 ciclos cada instrucción",
+      "Dedica 0,25 µs a cada instrucción",
+      "Dedica 0,25 ciclos a cada instrucción"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Cuando se habla de funciones de correspondencia (directa, totalmente asociativa...), nos referimos a técnicas de:",
+    "option": [
+      "Búsqueda de los bloques en memoria",
+      "Reemplazamiento de bloques en memoria caché",
+      "Escritura o actualización de los bloques",
+      "Organización de la memoria caché"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Atendiendo a los tipos de fallos caché (forzosos, de conflicto, de capacidad):",
+    "option": [
+      "Un mismo bloque puede dar los tres tipos de fallos",
+      "Un mismo bloque dará fallo de conflicto si la memoria caché está llena",
+      "Un mismo bloque siempre dará el mismo tipo de fallo",
+      "Puede darse fallo de capacidad aun cuando la memoria caché tenga hueco libre"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Atendiendo a la longitud del formato de dirección:",
+    "option": [
+      "Es mñas larga para la función de correspondencia directa",
+      "Es la misma para todas las funciones de correspondencia",
+      "Es más corta para la función de correspondencia totalmente asociativa",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Para conocer si un bloque solicitado se encuentra en memoria caché:",
+    "option": [
+      "La correspondencia totalmente asociativa necesita un solo comparador",
+      "Se necesitan tantos comparadores como bloques",
+      "La correspondencia directa necesita un solo comparador",
+      "Se necesita un comparador por cada conjunto"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Las técnicas estudiadas para mejorar el rendimiento de la memoria principal son:",
+    "option": [
+      "Acelerar el caso común (ley de Amdahl)",
+      "Memoria multinivel",
+      "Memoria superescalar",
+      "Memoria entrelazada y aumento del ancho de palabra"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "De los algoritmos d ereemplpazo, el que permite conocer cuánto tiempo lleva un bloque en memoria caché es el:",
+    "option": [
+      "FIFO",
+      "LFU",
+      "Aleatorio",
+      "LRU"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "De las estrategias de escritura para reemplazar un bloque de memoria caché:",
+    "option": [
+      "La escritura inmediata reduce los accesos a M. Principal",
+      "Todas suponen el mismo número de accesos",
+      "La postescritura reduce los accesos a M. Principal",
+      "La escritura nunca implica acceso a M. Principal"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "De las posibilidades de almacenamiento interno (pila, acumulador y banco de registros), podemos relacionar:",
+    "option": [
+      "Computador de 2 direcciones - Pila",
+      "Computador de 1 dirección - Acumulador",
+      "Computador de 0 direcciones - Banco de registros",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea la ejecución de la instrucción ADD .4, .7 en un sistema con arquitectura Von Neumann, si implica 4 ciclos de reloj y la activación de 17 señales de control:",
+    "option": [
+      "La instrucción la componen 4 microinstrucciones",
+      "La instrucción la componen $(17+4)$ microinstrucciones",
+      "La instrucción la componen 17 microinstrucciones",
+      "La instrucción la componen (17/4) microinstrucciones"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una unidad de control microprogramada con secuenciamiento implicito y 8 bits en el campo código de operación y memoria de control de 500 posiciones. Indica cuál de las siguientes afirmaciones es cierta:",
+    "option": [
+      "La etapa traductora será de 256 posiciones x 500",
+      "La etapa traductora será de 256 posiciones x 9",
+      "La memoria de control será de 500 posiciones x 8",
+      "No necesita ni etapa traductora ni memoria de control"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "De las siguientes instrucciones, indica las que son de salto incondicional:",
+    "option": [
+      "RETI y CMP.4, #0",
+      "BZ A0005h",
+      "CALL Y RET",
+      "CMP .4, #0 y BNZ A0005h"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea la arquitectura DLX con unidades funcionales para FP que requieren varios ciclos:",
+    "option": [
+      "Sólo presenta riesgos de tipo RAW",
+      "Sólo presenta riesgos estructurales",
+      "Puede presentar riesgos RAR",
+      "Puede presentar riesgos de tipo WAW"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Si durante el arranque de un sistema computador, el fabricante ha programado el registro PC para que inicialmente contenga el valor F0000h:",
+    "option": [
+      "El resto de registros deben contender ese mismo valor",
+      "El sistema operativo se encuentra almacenado a partir de esa dirección",
+      "La pila se encuentra definida a partir de esa dirección",
+      "El programa cargador (boot-strap) estará almacenado a partir de esa dirección"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Atendiendo al esquema del computador Von Neumann estudiado en el Tema 3, corresponde a:",
+    "option": [
+      "Un computador de 4 direcciones",
+      "Un computador de 3 direcciones",
+      "Un computador de 2 direcciones",
+      "Un computador de 1 dirección"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea un sistema del que se dice que la pila crece hacia direcciones crecientes:",
+    "option": [
+      "La ejecución de CALL implica decrementar SP",
+      "La ejecución de RET implica decrementar SP",
+      "La ejecución de un TRAP implica decrementar SP",
+      "La ejecución de RET implica incrementar SP"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En un sistema con unidad de control microprogramada, una instrucción de bifurcación condicional:",
+    "option": [
+      "Tiene asociados dos microprogramas",
+      "Tiene asociado un único microprograma",
+      "No existen microprogramas en estos sistemas",
+      "Depende del tipo de secuenciamiento"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema con arquitectura Von Neumann, ancho de palabra de memoria de 16 bits y formato de instrucción de 32 bits:",
+    "option": [
+      "El incremento de PC se hará en 2 unidades",
+      "El incremento de PC y SP se hará en 2 unidades",
+      "El incremento de RD se hará en 2 unidades",
+      "El incremento de RI se hará en 2 unidades"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea la arquitectura DLX, al ejecutar la operación LB R2, 10(R1):",
+    "option": [
+      "Se modificará el byte más significativo de R2",
+      "Se modificará el byte menos significativo de R2",
+      "Se modificará el byte menos significativo de R1",
+      "Se modificará todo el registro R2"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "La arquitectura superescalar:",
+    "option": [
+      "Obliga a realizar a la vez las mismas fases de una misma instrucción",
+      "Sólo permite realizar múltiples operaciones con número de escalares",
+      "Permite realizar a la vez las mismas fases de distintas instrucciones",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea el extracto del blucle: LOOP: LF FO, 0(R1) ADDF F4, FO, F2 SUB R1, R1, #8 BNEZ R1, LOOP que pasa a ser de la forma: LOOP: LF FO, 0(R1) ADDF F4, FO, F2 SD 0(R1) F4 SUB R1, R1, #8 SD 8(R1), F4 BNEZ R1, LOOP estaríamos aplicando:",
+    "option": [
+      "Desenrrollado de bucle",
+      "Planificación de traza",
+      "Segmentación software",
+      "Planificación de bucle"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "El objetivo de la arquitectura VLIW es:",
+    "option": [
+      "Tener un registro de instrucción de mayor tamaño",
+      "Tener un mayor repertorio de instrucciones",
+      "Aumentar el grado de segmentación del sistema",
+      "Aumentar el nivel de paralelismo a nivel de instrucción"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En la arquitectura DLX sin la estructura revisada para las instrucciones de salto, la ejecución de la instrucción BEQZ R1, A0000h implica:",
+    "option": [
+      "Un riesgo estructural",
+      "Un riesgo por dependencia de datos",
+      "Un riesgo de control",
+      "No implica ningún riesgo"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "En un sistema computador, las características básicas que informan de las prestaciones (rendimiento y capacidad de almacenamiento) son:",
+    "option": [
+      "Capacidad y velocidad de memoria",
+      "Frecuencia, CPI, recuento de instrucciones y capacidad de memoria",
+      "MIPS y capacidad de memoria",
+      "Sólo Tiempo de ciclo y Recuento de instrucciones"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Para mejorar el rendimiento de un computador para una aplicación se tienen dos opciones: 1- Cambiar el procesador gráfico que se utiliza un 40% del tiempo, consiguiendo un factor de mejora de 10, 2- Incrementar la memoria obteniendo un factor de mejora de 5 el 50% del tiempo. ¿Cuál es la mejor opción?",
+    "option": [
+      "La opción 1 da mayor aceleración",
+      "La opción 2 da mayor aceleración",
+      "Ambas opciones dan igual aceleración",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea un computador A capaz de completar 6.250 tareas/seg y un computador B que completa 5.000 tareas/seg, se dice entonces que:",
+    "option": [
+      "El computador A es 10% más rápido que el B",
+      "El computador A tarda 0,5 seg en las 6.250 tareas",
+      "El computador B es el 50% más rápido que el A",
+      "El computador A es el 25% más rápido que el B"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea un sistema computador con microprocesador Intel i3 a 1,4 GHz capaz de ejecutar una intrucción en 0,04 ciclos de media, se obtiene que:",
+    "option": [
+      "Ejecuta 35,00 instrucciones por segundo",
+      "El número de MIPS es de 35.000",
+      "Cada ciclo de reloj dura 1/1,4 seg",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Considerando el par Memoria Principal-Memoria Caché, la transferencia de información entre ellos se hace normalmente:",
+    "option": [
+      "A nivel de bloque",
+      "A nivel de palabra",
+      "A nivel de página o de segmento, según el sistema",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema con memoria cahcé de 4kposiciones y memoria principal de 64 kposiciones, las direcciones que genera la CPU:",
+    "option": [
+      "Son al menos de 64 bits",
+      "Son de 12 bits",
+      "Son independientes del tamaño de la memoria caché",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Respectoa. los algoritmos de reemplazo, sea un bloque que acaba de entrar en la memoria caché:",
+    "option": [
+      "Tiene mayor probabilidad de salir si se aplica la LFU",
+      "Tiene mayor probabilidad de salir en cualquier caso",
+      "Tiene mayor probabilidad de salir si se aplica FIFO",
+      "Tiene mayor probabilidad de salir si se aplica LRU"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Para un tamaño de M. Caché y M. Principal concretos fijados, se obtiene mayor tasa de aciertos por localidad espacial, pero menor tasa de aciertos por localidad temporal:",
+    "option": [
+      "Cuanto menos bloques haya en la M. Caché",
+      "Cuanto más bloques haya en la M. Caché",
+      "Cuanto más bloques haya en la M. Principal",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Para realizar la operación C <- A + B, siendo A, B y C operandos en memoria, en un computador Von Neumann:",
+    "option": [
+      "Es posible realizarla en un computador de una dirección con dos instrucciones",
+      "El computador debe ser de al menos 2 direcciones",
+      "Sólo es posible realizarla en un computador de tres direcciones",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Según el esquema de computador Von Neumann estudiado en el Tema 3, el registro RF indica:",
+    "option": [
+      "El número de microinstrucciones de las instrucciones",
+      "Que el repertorio de instrucciones tendrá como máximo un n igual al máximo valor posible de RF",
+      "Esta información no es imprescindible",
+      "El periodo de ejecución en el que se encuentra la instrucción en curso"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En el esquema de computador Von Neumann estudiado en el Tema 3, las dos operaciones elementales PC <- PC + 1 y SP <- SP-1:",
+    "option": [
+      "Actualiza el registro de estado SR la operación elemental PC <- PC +1 únicamente",
+      "No actualizan el registro de estado SR ninguna de ellas",
+      "La ALU no interviene en ninguna de ellas",
+      "La Unidad de Control no interviene en ninguna de ellas"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En una unidad de control microprogramada con secuenciamiento explícito, si la etapa traductora ROM tiene una organización de 256x12, podemos afirmar que:",
+    "option": [
+      "La memoria de control tiene 12 bits en cada posición",
+      "El registro de instrucción tiene 8 bits",
+      "El código de operación es de 8 bits",
+      "Dicha unidad microprogramada no tiene etapa ROM"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sean las instrucciones ADD R2, A0002h; SUB R1, A0004h; y MUL R5, B0006h:",
+    "option": [
+      "Emplearán siempre el registro SP",
+      "Pueden romper la secuencia de ejecución del programa",
+      "No implicarán nunca romper la secuencia",
+      "No emplearán nunca el registro SP"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "De las siguientes instrucciones, indica en cuál de ellas se almacena en la pila el valor del registro SR:",
+    "option": [
+      "CALL A0002h",
+      "RET",
+      "IRET",
+      "En ninguna de las instrucciones indicadas"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En el procesador DLX, si hay que almacenar un dato de 16 bits, ¿en qué posición de memoria se almacenará el byte de menos peso?:",
+    "option": [
+      "En la dirección de memoria más alta",
+      "En la dirección de memoria más baja",
+      "Depende del tipo de datos que sea",
+      "En DLX, para almacenar un dato de 16 bits se necesita únicamente una posición de memoria"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "En el procesador DLX, decir cuál de las siguientes afirmaciones es falsa:",
+    "option": [
+      "No todas las instrucciones tienen un formato de 32 bits",
+      "Permite almacenar datos según el estándar IEEE 754 de simple y doble precisión",
+      "La capacidad de direccionamiento es de 4 Gposiciones",
+      "Los registros R1-R31 del banco GPR se pueden cargar con el valor de 32 bits que se desee"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "¿Cuál es el tipo de riesgo por dependencia de datos que se presenta en el fragmento de código ensamblador siguiente si se ejecuta en un procesador DLX segmentado con bypass generalizado?: LD R5, 12(R3) ADD R5, R2, R3",
+    "option": [
+      "RAW",
+      "WAR",
+      "WAW",
+      "Ninguno"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "De los posibles riesgos que se podrían eliminar en un procesador DLX empleando varios operadores independientes en vez de un único operador de propósito general, ¿de qué tipo serían?",
+    "option": [
+      "Riesgos estructurales",
+      "Riesgos por dependencias de datos",
+      "Riesgos de control",
+      "Cualquier tipo de riesgo"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "¿Qué tipo de riesgos NO se pueden producir en un DLX con operaciones multiciclo de n de ciclos diferentes (según operación)?",
+    "option": [
+      "WAR",
+      "WAW",
+      "Estructurales",
+      "RAW"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Un computador vectorial:",
+    "option": [
+      "Sólo opera con registros vectoriales",
+      "Sólo ejecuta instrucciones vectoriales",
+      "Dispone tanto de registros escalares como vectoriales",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Dado un sistema computador con un CPI_promedio = 1,7:",
+    "option": [
+      "Significa que dedica 1,7 seg/instrucción",
+      "Significa que ejecuta 1,7 instrucciones/segundo",
+      "Significa que una instrucción puede necesitar para su ejecución 1, 2, o 3,... ciclos de la señal de reloj",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "En una operación de carga de un registro vectorial, comparando una memoria organizada por bancos de memoria y una memoria entrelazada:",
+    "option": [
+      "La entrelazada es siempre más rápida",
+      "La organizada por bancos es simpre más barata",
+      "La organizada por bancos es siempre más rápida",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Un computador vectorial cuyas componentes de vector son de 64 bits tiene una memoria entrelazada con 4 módulos de memoria (palabra de memoria de 8 bits), ¿en qué módulo de memoria se encontrará la dirección 56?",
+    "option": [
+      "En el módulo 1",
+      "En el módulo 2",
+      "En el módulo 0",
+      "En el módulo 3"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Comparando la arquitectura Von Neumann y la arquitectura DLX estudiadas:",
+    "option": [
+      "La primera es más rápida que la segunda",
+      "La segunda no ofrece paralelismo a nivel de instrucción",
+      "Ambas tienen unidad de Control segmentada",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Considerando los paralelismos interno y externo en una arquitectura de computador:",
+    "option": [
+      "La arquitectura con el procesador DLX aplica paralelismo externo",
+      "La arquitectura con el procesador DLX aplica paralelismo interno",
+      "La arquitectura con el procesador DLX aplica tanto paralelismo externo como interno",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En un sistema computador, y referida a la tarea de cálculo completa, la cantidad de trabajo realizado se denomina:",
+    "option": [
+      "Productividad",
+      "Tiempo de respuesta",
+      "Tiempo de ejecución",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Atendiendo a los conceptos de productividad y tiempo de respuesta de un procesador, la segmentación NO mejora:",
+    "option": [
+      "El tiempo de respuesta y la productividad",
+      "El tiempo de respuesta",
+      "La productividad",
+      "Depende de la segmentación"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "El Principio de Localidad Temporal, se aplica:",
+    "option": [
+      "Únicamente a los accesos de instrucciones",
+      "Unicamente a los accesos de datos",
+      "Tanto a los accesos de datos como de instrucciones",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Los MIPS (Millones de Intrucciones Por Segundo):",
+    "option": [
+      "Son independientes del repertorio de instrucciones de la máquina",
+      "Varian entre programas en el mismo computador",
+      "Nos permiten calcular exactamente el tiempo de ejecución de un programa real",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Para un determinado tamaño de Memoria Caché, a menor tamaño de bloque corresponde:",
+    "option": [
+      "Mayor tasa de acierto por localidad espaial",
+      "Mayor tasa de acierto por localidad temporal",
+      "Mayor tasa de aciertos",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "¿Qué estrategia de escritura plantea más problemas de coherencia?",
+    "option": [
+      "En un sistema monoprocesador no se empplea estrategia de escritura alguna",
+      "La de escritura inmediata",
+      "La coherencia de caché no está relacionada con la estrategia de escritura",
+      "La de post-escritura"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Atendiendo a los tipos de fallos de caché, los de capacidad NO se pueden dar.",
+    "option": [
+      "En cachés con correspondencia directa",
+      "En cachés con correspondencia totalmente asociativa",
+      "En cachés con correspondencia asociativa por conjuntos",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Para un mismo sistema de memoria, un mismo tamaño de bloque y distintas correspondencias, el menor tamaño del campo etiqueta es el de la correspondencia:",
+    "option": [
+      "Directa",
+      "Asociativa por conjuntos",
+      "Totalmente asociativa",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "El número de comparaciones de las etiquetas de los bloques esxistentes en la memoria caché, decrece:",
+    "option": [
+      "Con la mayor asociatividad",
+      "Con la menor asociatividad",
+      "Con el tamaño de bloque",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "El valor de todas las señales de control durante un periodo de ejecución de una instrucción define:",
+    "option": [
+      "Un microprograma",
+      "Una operación elemental",
+      "Una instrucción",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En una unidad de control microprogramada, y suponiendo que no se consideran cepos o traps, indica cuántos microprogramas tiene asociados una instrucción del tipo BZ [A0000h]:",
+    "option": [
+      "Dos",
+      "Depende del computador",
+      "Los mismos que tiene la instrucción JMP A0000h",
+      "Esta unidad de control no almacena microprogramas"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una unidad de control microprogramada con secuenciamiento explicito y 8 bits en el campo código de operación. Indica cuál de las siguientes afirmaciones es cierta:",
+    "option": [
+      "Tiene una etapa traductora tipo ROM de 256 posiciones",
+      "Debe tener una etapa traductora ROM de al menos 256 posiciones de memoria",
+      "Tiene una memoria de control con 256 posiciones",
+      "No necesita etapa traductora"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Considerando las instrucciones: CALL, RET y JMP, indica cuál de ellas no es de bifurcación:",
+    "option": [
+      "RET",
+      "CALL",
+      "BZ",
+      "Todas son de bifurcación"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea la arquitectura DLX con unidades funcionales para operaciones en formato de coma flotante donde la unidad sumador/restador requiere 2 ciclos y la de división requiere 5 ciclos, dad la secuencia DIVF F1, F3, F2 y SUBF F1, F3, F4, existe riesgo de tipo:",
+    "option": [
+      "Estructural",
+      "Por dependencia de datos tipo WAW",
+      "Por dependencia de datos tipo RAW",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En la arquitectura DLX, el Adelantamiento Generalizado:",
+    "option": [
+      "Elimina el número de detenciones derivadas de los riesgos estructurales",
+      "Reduce los riesgos de control",
+      "Elimina totalmente el número de detenciones derivadas de riesgos por dependencia de datos",
+      "Complica el hardware"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Los riesgos por dependencia de datos del tipo WAW NO pueden existir en:",
+    "option": [
+      "Una arquitectura DLX con unidades funcionales con distintos tiempos de ejecución",
+      "Una arquitectura DLX con unidades funcionales con los mismos tiempos de ejecución",
+      "Una arquitectura DLX con undades funcionales en FP y distintos tiempos de ejecución",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En arquitectura VLIW (Very Long Instruction Word):",
+    "option": [
+      "Se aplican exclusivamente técnicas software para mejorar el paralelismo a nivel de instrucción",
+      "Se aplican exclusivamente técnicas hardware para mejorar el paralelismo a nivel de instrucción",
+      "La compilación de los programas se hace en función del hardware con que cuenta el computador",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "El tamaño de palabra del computador que se considera en la arquitectura DLX estudiada es de:",
+    "option": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea una máquina no segmentada con cinco pasos de ejecución de 40 ns cad uno y otra máquina segmentada también con cinco etapas de 40 ns cada una, a partir del tiempo empleado en la ejecución de 4 instrucciones consecutivas, el tiempo medio por instrucción resulta (considerar que no existe ningún ciclo de detención):",
+    "option": [
+      "50 ns en ambas",
+      "200 ns en la primera y 100 ns en la segunda",
+      "200 ns en ambas",
+      "200 ns en la primera y 80 ns en la segunda"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "La arquitectura superescalar.",
+    "option": [
+      "No permite realizar las mismas fases de distnitas instrucciones a la vez",
+      "Permite realizar las mismas fases de distintas intrucciones a la vez",
+      "Implica siempre supersegmentación",
+      "Es equivalente a la supersegmentada"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Comparando el cálculo de las direcciones a las que se accede a la vez de una memoria estructurada por bancos con el de una memoria entrelazada:",
+    "option": [
+      "Los dos métodos no difieren",
+      "El de la estructurada por bancos es algo más compleja",
+      "El de la entrelazada es algo más complejo",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En un multiprocesador NUMA,",
+    "option": [
+      "La memoria está compartida",
+      "La memoria no está compartida",
+      "Los accesos a memoria se ahcen de igual forma a como se realizan en un multicomputador",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Los ordenadores de reducción:",
+    "option": [
+      "Emplean al disponibilidad de los operandos para disparar la ejecución de las operaciones",
+      "Emplean la necesidad que tiene un resultado de disparar la operación que generará el resultado requerido",
+      "Usan información explicita de los flujos de control para producir la ejecución de las instrucciones",
+      "Únicamente pueden ser SISD"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Atendiendo a las características de los sistemas micro, mini, gran y super computadores, las máquinas desarrolladas por el fabricante CRAY que soportan cargas de trabajo del orden de multi-petaflops pueden considerarse:",
+    "option": [
+      "Micro computadores",
+      "Mini computadores",
+      "Grandes computadores",
+      "Súper computadores"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea una arquitectura segmentada sobre la que aplicamos una modificación para aumentar la velocidad del procesador:",
+    "option": [
+      "Estamos mejorando el tiempo de ejecución de instrucción",
+      "Estamos mejorando sólo la productividad de la máquina",
+      "Empeoramos la aceleración",
+      "No vamos a tener ninguna mejora"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Atendiendo a la definición de productividad estudiada para sistemas computadores",
+    "option": [
+      "Aumenta cuando aumenta el tiempo de ejecución de instrucción",
+      "Disminuye cuadno disminuye el tiempo de ejecución de instrucción",
+      "Aumenta cuando aumenta el número de tareas realizadas por unidad de tiempo",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea un sistema computador del que conocemos su frecuencia de operación, f= 3 GHz",
+    "option": [
+      "Podemos conocer su productividad",
+      "Podemos conocer su tiempo de ciclo",
+      "Podemos conocer su CPI",
+      "El tiempo de ciclo es independiente de la frecuencia"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea un microprocesador con un CPImedio = 3, y frecuencia de operación de 2,5 GHz:",
+    "option": [
+      "El tiempo de ciclo es de 1,2 ns",
+      "El tiempo de ejecución por instrucción = 1,2 ns",
+      "El tiempo de ejecución de instrucción es de 3 ns",
+      "No es posible conocer el tiempo de ciclo"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea la máquina A que dedica 5 seg. en ejecutar un programa, mientras que la máquina B dedica 2,5 seg:",
+    "option": [
+      "La máquina A es el 100% más rápida que B",
+      "La máquina B es el 50% más rápida que A",
+      "La máquina B es 100% más rápida que A",
+      "No es posible comparar los dos rendimientos"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Cuando se habla de algoritmos de reemplazo (Aleatorio, FIFO, LRU, LFU...), nos referimos a técnicas de:",
+    "option": [
+      "Búsqueda de los bloques en memoria",
+      "Organización de la memoria caché",
+      "Escritura o actualización de los bloques",
+      "Sustitución de bloques en memoria caché"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Atendiendo a los tipos de fallos de caché (forzosos, de conflicto, de capacidad):",
+    "option": [
+      "El fallo forzoso se da siempre cuando la memoria caché está llena",
+      "El fallo de capacidad se da cuando hay hueco en la memoria caché",
+      "Después de un fallo de conflicto, siempre viene un fallo de capacidad",
+      "El fallo de conflicto se puede dar cuando hay hueco en la memoria caché"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Atendiendo al formato de dirección en un sistema computador con memoria caché:",
+    "option": [
+      "Es el mismo para la función de correspondencia directa y totalmente asociativa",
+      "Es el mismo para todas las funciones de correspondencia",
+      "No permite conocer cuántas palabras tiene cada bloque",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "La/s técnica/s estudiada/s para mejorar el rendimiento de un procesador son:",
+    "option": [
+      "Memoria entrelazada y aumento del ancho de palabra",
+      "Memoria multinivel",
+      "Memoria superescalar",
+      "Acelerar el caso común (ley de Amdahl)"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "De los algoritmos de reemplazo, el que penaliza al bloque más reciente introducido en memoria caché es el:",
+    "option": [
+      "FIFO",
+      "LFU",
+      "Aleatorio",
+      "LRU"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Indica el lugar donde pueden estar almacenados Iso operandos en una máquina de 2 direcciones:",
+    "option": [
+      "Banco de registros, Memoria y Pila",
+      "Registro Acumulador",
+      "Banco de Registros exclusivamente",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea una unidad de control microprogramada con secuenciamiento explicito y 8 bits en el campo código de operación y memoria de control de 500 posiciones. Indica cuál de las siguientes afirmaciones es cierta:",
+    "option": [
+      "La etaoa traductora será de 256 posiciones x 500",
+      "La etapa traductora será de 256 posiciones x 9",
+      "No necesita ni etapa traductora ni memoria de control",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "De las siguientes instrucciones, indica las que son de salto condicional:",
+    "option": [
+      "RETI y CMP.4, #0",
+      "BZ A0005h",
+      "CALL RET",
+      "CMP .4, #0 y BNZ A0005h"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea la arquitectura DLX estudiada que no realiza operaciones multiciclo:",
+    "option": [
+      "Los riesgos por dependencia de datos serán de tipo RAW",
+      "Sólo presenta riesgos estructurales",
+      "Puede presentar riesgos por dependencia de datos de tipo RAR",
+      "Presentará riesgos de tipo WAW"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Si durante el arranque de un sistema computador, el fabricante ha programado el registro SR para que inicialmente contenga el valor F0000h:",
+    "option": [
+      "El resto de registros deben contender ese mismo valor",
+      "El programa cargador (boot-strap) estará almacenado a partir de esa dirección",
+      "La pila se encuentra definida a partir de esa dirección",
+      "Ninguna de las afirmaciones anteriores es correcta."
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Atendiendo al esquema de la arquitectura DLX estudiada en el Tema 3 y 4, corresponde a:",
+    "option": [
+      "Un computador de 4 direcciones",
+      "Un computador de 3 direcciones",
+      "Un computador de 2 direcciones",
+      "Un computador de 1 dirección"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea un sistema con unidad de control microcableada, una instrucción de bifurcación condicional:",
+    "option": [
+      "Tiene almacenado un único microprograma",
+      "Estos sistemas no almacenan microprogramas",
+      "Tiene almacenados dos microprogramas",
+      "Depende del tipo de secuenciamiento"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea la arquitectura DLX, al ejecutar la operación LH R2, 10(R1) (Carga en parte alta del registro):",
+    "option": [
+      "Se modificará todo el registro R2",
+      "Se modificará todo el registro R1",
+      "Se modificarán los bytes más significativos de R2",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "La arquitectura supersegmentada:",
+    "option": [
+      "Obliga a realizar a la vez las mismas fases de una misma isntrucción",
+      "Permite realizar a la vez las mismas fases de distintas instrucciones",
+      "Sólo permite realizar múltiples operaciones con números escalares",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea el extracto del bucle: LOOP: ADDF FO, F2, F4 SF 0(R1), FO SUB R1, R1, #8 BNEZ R1, LOOP que pasa a ser de la forma: LOOP: ADDF FO, F2, F4 SF 0(R1), FO SUB R1, R1, #8 ADDF FO, F2, F4 SF 0(R1), FO SUB R1, R1, #8 estaríamos aplicando:",
+    "option": [
+      "Desenrollado del bucle",
+      "Planificación de traza",
+      "Segmentación software",
+      "Planificación del bucle"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "En la arquitectura DLX con la estructura revisada para las instrucciones de salto, la ejecución de la instrucción BEQZ R1, A0000h implica:",
+    "option": [
+      "Un riesgo de control",
+      "Un riesgo por dependencia de datos",
+      "Un riesgo estructural",
+      "No implica ningún riesgo"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En un sistema computador, las características básicas que informan de su rendimiento son:",
+    "option": [
+      "Capacidad y velocidad de memoria",
+      "Frecuencia, CPI, recuento de instrucciones y capacidad de memoria",
+      "MIPS y capacidad de memoria",
+      "Frecuencia, CPI y recuento de instrucciones"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea una máquina A que ejecuta un programa en 5 segundos y la máquina B lo ejecuta en 10 segundos:",
+    "option": [
+      "La máquina B es el 100% más lenta que A",
+      "La máquina B es el 50% más lenta que A",
+      "La máquina B es el 100% más rápida que A",
+      "La máquina B es el 200% más lenta que A"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema computador al que se le aplica una mejora que supone una aceleración global de 1, se puede afirmar que:",
+    "option": [
+      "La mejora aplicada no merece la pena",
+      "La aceleración global es del 100%",
+      "La aceleración global es del 50%",
+      "La aceleración mejorada es de 2"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema compuador que dedica el 80% del tiempo a procesamiento gráfico. Si se aplica una mejora en la tarjeta gráfica (supone 1/5 del coste total), de forma que se consigue una aceleración mejorada de 2, pero un aumento en x3 del coste de la tarjeta:",
+    "option": [
+      "La relación (Aceleración global/Coste total) = 1",
+      "La relación (Aceleración global/Coste total) = 1,66",
+      "Se consigue más aceleración global que el coste implicado",
+      "Supone más coste que aceleración conseguida"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema computador con Arquitetura Von Neumann, con un valor medio de CPI = 6 y frecuencia de procesamiento de 2 GHz:",
+    "option": [
+      "Dedica de media 3 ns a cada instrucción",
+      "Dedica de media 0,5 ns a cada instrucción",
+      "Dedica de media 12 ns a cada instrucción",
+      "Dedica de media 6 ns a cada instrucción"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema con arquitectura DLX capaz de ejecutar 20 MFLOPS y que dedica 100 ciclos por FLOP:",
+    "option": [
+      "La frecuencia del sistema es de 2 GHz",
+      "La frecuencia del sistema es de 20 GHz",
+      "La frecuencia del sistema es de 2 MHz",
+      "La frecuencia del sistema es de 100 MHz"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Considerando que la memoria caché está vacía y contiene 256 palabras/bloque, si la CPU llama a la dirección de memoria implica:",
+    "option": [
+      "Copiar de MP a Mcaché sólo la posición 0",
+      "Copiar de MP a Mcaché las 256 primeras posiciones",
+      "Borrar de MP las 256 primeras posiciones",
+      "Copiar de MCaché a MP las 256 primeras posiciones"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "De los algoritmos de reemplazo utilizados en la memoria caché, el que favorece el bloque que acaba de entrar es:",
+    "option": [
+      "El algoritmo aleatorio",
+      "El algoritmo LRU",
+      "El algoritmo LFU",
+      "Ninguno penaliza el bloque que acaba de entrar"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Indica los fallos que pueden existir en cualquier función de correspondencia:",
+    "option": [
+      "Sólo fallos forzosos",
+      "Fallos forzosos y de capacidad",
+      "Sólo fallos de conflicto",
+      "Fallso forzosos y de conflicto"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Sea una memoria caché de 2 niveles, sabiendo que de 1000 referencias a memoria hay 30 fallos en la caché de primer nivel y 9 fallos en la de segundo nivel. ¿Cuál es la frecuencia global de fallos?",
+    "option": [
+      "9%",
+      "0,9%",
+      "30%",
+      "3%"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Atendiendo a la arquitectura serie Von Neumann estudiada, la ejecución de la instrucción BNZ A0000h:",
+    "option": [
+      "Implica comprobar el valor del biestable S",
+      "Implica comprobar el valor del biestable Z y S",
+      "Implica compribar el valor del biestable Z",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "Sea un sistema con arquitectura Von Neumann y sin Memoria de Control",
+    "option": [
+      "Se trata de un diseño de UC microprogramada",
+      "No puede ejecutar isntrucciones de bifurcación",
+      "Se tratad e un diseño de UC microcableada",
+      "Puede tener cualquiera de los dos diseños de UC"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "En relación a la definición de Memoria de Control:",
+    "option": [
+      "Almacena únicamente las primeras microinstrucciones",
+      "Almacena el valor de los biestables de estado aritmético",
+      "Almacena el firmware del sistema computador",
+      "Tiene capacidad ilimitada"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "En relación a la arquitectura Von Neumann estudiada:",
+    "option": [
+      "Las señales FD y FP no pueden activarse simultáneamente",
+      "La señal E es una señal triestado",
+      "Las señales FD y L (lectura memoria) pueden estar activas en el mismo ciclo",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 3
+  },
+  {
+    "question": "De los siguientes eventos, indica el que corresponde a una interrupción interna programada:",
+    "option": [
+      "INT 21h",
+      "Interrupción de periférico TIMER 18255",
+      "DIV.2, .3; con R3 = 0 provocando TRAP",
+      "Corte de suministro eléctrico por batería descargada"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea la arquitectura DLX estudiada, la ejecución de la instrucción (de almacenamiento tamaño byte en memoria) SB 10 (R2), R1 con M(10+2)=5 implica:",
+    "option": [
+      "Completar con el valor 5 la parte alta de R1",
+      "Almacenar en memoria el byte más significativo de R1",
+      "Completar con el valor 5 la parte baja de R1",
+      "Almacenar en memoria el byte menos significativo de R1"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "En base a la arquitectura DLX estudiada, ¿qué registro emplearías para representar el valor +π?",
+    "option": [
+      "El registro RO",
+      "Dos registros de coma fija (Ri-Ri+1)",
+      "No es posible representar ese valor",
+      "Un registro de coma flotante de simple precisión (Fi)"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea la secuencia de instrucciones: LW R2, 10(R4) y SW 10(R4), R6 implementada sobre la arquitectura escalar DLX estudiada:",
+    "option": [
+      "Implica detención porque supone riesgo de tipo RAR",
+      "Implica detención porque sipone riesgo de tioi RAW",
+      "Implica detención porque supone riesgo de tipo WAR",
+      "No supone riesgo por dependencia de datos"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea la secuencia de instrucciones: ADD R1, R2, R3 y SUB R2, R3, R4 que se ejecuta en la arquitectura DLX:",
+    "option": [
+      "No pueden ejecutarse en una arquitectura superescalar",
+      "Debe ejecutarse en una arquitectura vectorial",
+      "Implica una detención por riesgo de tipo WAR",
+      "Puede ejecutarse en una arquitectura süper escalar"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sea una arquitectura DLX con una unidad funcional no segmentada para multiplicación EXMULTF y otra para división EXDIVF sobre la que se ejecuta la secuencia de instrucciones MULTF F1, F2, F3 y DIVF F4, F5, F6:",
+    "option": [
+      "Las respectivas etapas de EX no pueden solaparse",
+      "Ambas instrucciones emplean la misma unidad funcional",
+      "Cada isntrucción debe ejecutarse en un cauce diferente",
+      "Las respectivas etapas de EX pueden solaparse"
+    ],
+    "correctOption": 4
+  },
+  {
+    "question": "Sean la instrucción vectorial ADDV V1, V2, V3 con longitud de vector = 64 elementos, tiempo de arranque = 6 ciclos y tiempo de iniciación = 1 ciclo, ¿cuántos ciclos se necesitan como minimo para obtener el resultado completo?",
+    "option": [
+      "70 ciclos",
+      "384 ciclos",
+      "64 ciclos",
+      "6 ciclos"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un sistema con la arquitectura DLX vectorial estudiada y memoria organizada en bancos de memoria (8 bancos), si la CPU solicita la dirección 8 (y siguientes), ésta se encuentra:",
+    "option": [
+      "En el banco 1",
+      "En el banco 0",
+      "En el banco 4",
+      "En el banco 8"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sea un vector de 64 elementos sobre el que se realiza una operación vectorial en una arquitectura con Longitud Máxima de Vector MVL = 64:",
+    "option": [
+      "El vector se opera en su totalidad sin seccionamiento",
+      "El vector se divide en 64 secciones de 1 elemento",
+      "El vector se divide en 4 secciones de 16 elementos",
+      "El vector se divide en 2 secciones de 32 elementos"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sean las sentencias de un bucle S1: B(i) = A(i-1) * K y S2: C(i) = B(i-1) + A(i), con I=1...64:",
+    "option": [
+      "Ninguna sentencia es vectorizable",
+      "Las dos sentencias son vectorizables",
+      "La sentencia S1 es vectorizable",
+      "La sentencia S2 es vectorizable"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "Sean las sentencias de un bucle S1: B(i)=A(i)/K y S2:C(i)=A(i)+B(i-1), con i=1...64;",
+    "option": [
+      "Existe riesgo de tipo RAW en S2 respecto a S1",
+      "Existe riesgo de tipo RAR en S2 respecto a S1",
+      "Existe riesgo de tipo WAW en S2 respecto a S1",
+      "Existe riesgo de tipo WAR en S2 respecto a S1"
+    ],
+    "correctOption": 1
+  },
+  {
+    "question": "En base a la clasificación de Flynn sobre los sistemas computadores:",
+    "option": [
+      "La arquitectura SIMD es la más sencilla",
+      "La arquitectura SISD es la más sencilla",
+      "La arquitectura MISD es la más sencilla",
+      "Ninguna de las afirmaciones anteriores es correcta"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "En base a la clasificación de las arquitecturas paralelas, en un multiprocesador tipo UMA:",
+    "option": [
+      "Solo utiliza caché como memoria",
+      "La memoria fisica es compartida por los procesadores",
+      "El contador de programa PC es compartido",
+      "El acceso a la memoria se hace por paso de mensajes"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Considerando una arquitectura escalar multihebra con bloqueo:",
+    "option": [
+      "Después de cada ciclo, conmuta a otra hebra",
+      "Después de cada detención, conmuta a otra hebra",
+      "Conmuta a otra hebra cuando finaliza con la anterior",
+      "Debe tener tantos cauces como hebras"
+    ],
+    "correctOption": 2
+  },
+  {
+    "question": "Dado un sistema tipo CRAY Titan con 712 TB de memoria y capaz de ejecutar 20 FLOPs:",
+    "option": [
+      "Se incluye dentro de los sistemas denominados minicomputadores",
+      "Se incluye dentro de los sistemas denominados microcomputadores",
+      "Se incluye dentro de los sistemas denominados computadores de tamaño medio",
+      "Se incluye dentro de los sistemas denominados supercomputadores"
+    ],
+    "correctOption": 4
+  }
+]
