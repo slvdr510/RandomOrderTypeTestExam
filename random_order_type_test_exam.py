@@ -67,7 +67,7 @@ def beginExam(json_data):
         for questionNumber, data in enumerate(json_data):
             cls()
             
-            print(f"{str(questionNumber+1)}. {data.get('question')}\n")
+            print(f"\n{str(questionNumber+1)}. {data.get('question')}\n")
             
             for option in range(len(data.get('option'))):
                 print(f"{option+1}. {data.get('option')[option]}")
